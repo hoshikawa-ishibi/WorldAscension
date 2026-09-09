@@ -8,6 +8,8 @@ World Ascension 为 WorldBox 增加一条缓慢、可观察的文明发展路线
 
 游戏界面支持简体中文与 English，并跟随 WorldBox 的语言设置。详细机制见 [PLAYER_GUIDE.md](PLAYER_GUIDE.md)，安装步骤见 [INSTALL.md](INSTALL.md)。
 
+运行本模组需要 NeoModLoader，并需在 WorldBox 中开启 Experimental Mode。首次使用 NML 时请先按其安装说明手动安装加载器。
+
 ## 兼容环境
 
 - Windows
@@ -41,6 +43,8 @@ World Ascension 为 WorldBox 增加一条缓慢、可观察的文明发展路线
 World Ascension adds a slow, observable path of civilization development to WorldBox. Cities progress from the medieval stage into workshops, industry, and the modern era. Countries research technologies, build public services, choose policies, respond to crises, and divide real stock between war and development.
 
 The in-game interface supports Simplified Chinese and English and follows the WorldBox language setting. See [PLAYER_GUIDE.md](PLAYER_GUIDE.md) for rules and [INSTALL.md](INSTALL.md) for setup.
+
+The mod requires NeoModLoader and WorldBox Experimental Mode. Follow the NML installation guide to install the loader manually before first use.
 
 ### Verified environment
 
