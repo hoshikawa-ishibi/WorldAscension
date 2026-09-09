@@ -1,75 +1,71 @@
-# World Ascension
+# World Ascension 1.0
 
-[下载最新安装包](https://github.com/hoshikawa-ishibi/WorldAscension/releases/latest) · [完整玩家指南](PLAYER_GUIDE.md) · [使用许可](LICENSE.md)
+[下载安装包](https://github.com/hoshikawa-ishibi/WorldAscension/releases/tag/v1.0.0) · [安装说明](INSTALL.md) · [完整玩家指南](PLAYER_GUIDE.md) · [使用说明](LICENSE.md)
 
-发布维护：hoshikawa-ishibi。这里是发行与玩家资料仓库，不包含模组源码。
+中文 | [English](#english)
 
+World Ascension 为 WorldBox 增加一条缓慢、可观察的文明发展路线。城市会从中世纪逐步进入工坊、工业与现代阶段，国家会研究科技、建设公共设施、选择政策、处理危机，并在战争与发展之间分配真实库存。
 
-World Ascension 为 WorldBox 增加一条缓慢、可观察的文明发展路线。城市会在原版人口、资源和战争变化之上逐步进入工坊、工业与现代阶段，国家则会研究科技、选择政策、建设公共设施并处理危机。
+游戏界面支持简体中文与 English，并跟随 WorldBox 的语言设置。详细机制见 [PLAYER_GUIDE.md](PLAYER_GUIDE.md)，安装步骤见 [INSTALL.md](INSTALL.md)。
 
-这是1.0版的入门介绍。先按默认设置观察文明变化，需要干预时再打开国家面板；完整数字和触发条件都在随包离线手册中。
-
-## 兼容性
-
-目前只确认以下环境：
+## 兼容环境
 
 - Windows
-- WorldBox 0.51.2，build 19962337
+- WorldBox 0.51.2，Steam build 19962337
 - NeoModLoader 1.2.0.1
 
-其他系统、游戏版本或加载器版本尚未确认兼容。
+其他系统、游戏版本和模组组合尚未确认兼容。
 
-下载包内的 `WorldAscension/` 是模组目录；先打开包外的 `START_HERE.html` 阅读离线手册，按 `INSTALL.md` 安装。不要把整个压缩包直接放进游戏目录。
+## 主要内容
 
-## 它增加了什么
-
-- **自然文明演进：** 城市满足人口、城龄、库存和国家科技条件后自然升级。正常世界约50年才出现第一批工业城市并不异常。
-- **国家科研：** 11项科技分为工业、民生和军事三路，城市使用真实黄金与金属逐年出资。
-- **年度生产：** 工坊用木材转化金属，真实工厂生产金属与黄金；科技和城市分工会改变产出。
-- **城市分工：** 城市可选择均衡、农业、工业或学术路线，也可交给系统自动判断。
-- **公共工程：** 公共粮仓缓冲缺粮，医院治疗居民，学府提高科研效率，物流在同国城市间搬运真实食物。
-- **国家治理：** 国家政策、稳定、国内事件以及国家重建、教育改革会消耗实际库存并影响发展节奏。
-- **外交与军备：** 包含贸易、互不侵犯、禁运、援助、付费武器补装和后期核工程。
-- **可选飞升：** 手动赋予本模组候选者特质后可体验强者成长。公开版保留原版生物发现和特质解锁条件，不附带全解锁工具。
-
-医院会优先复用城市已有的原生神庙外观，学府会优先复用原生图书馆外观；没有合适载体时，设施仍作为城市服务生效。
-
-核武器只接受玩家手动下令，AI不会自动发射。它会破坏地形并波及友军，使用前需要二次确认。
-
-这个模组不是加入坦克、飞机和完整现代社会模拟的全面现代化游戏。它把重点放在城市资源、科研、治理和长期国家变化上。
+- 工坊、工业、现代三个发展阶段，升级取决于人口、城龄、库存和科技。
+- 工业、民生、军事三条研究路线，共11项科技。
+- 按游戏年结算的工坊与工厂生产，以及农业、工业、学术城市分工。
+- 公共粮仓、市立医院、城市学府与同国内部粮运。
+- 国家政策、稳定、国内事件、战后重建和教育改革。
+- 贸易、互不侵犯、禁运、援助、现代军备与后期核工程。
+- 可选的飞升候选者成长玩法。
 
 ## 五分钟上手
 
-1. 创建或载入一个正常世界，让至少一个王国拥有稳定发展的城市。
-2. 打开底部的“世界飞升”页，选择“总览”，再点“国家面板”。
-3. 点击地图上的城市。面板会显示该国人口、库存、稳定、缺粮、科技和工程没有发展的原因。
-4. 第一次游玩可保留默认设置：自动时代发展、国家科研、国家施政、外交和城市发展均开启；科研使用“自动＋常规”。
-5. 让时间自然推进。工坊的默认门槛是20人口、3年城龄和3金属；进入工业还需要更高人口、库存和精密工具研究。
+1. 安装并启用模组后，创建新世界或载入世界副本。
+2. 打开 **世界飞升 → 总览 → 国家面板**，再点击一座城市。
+3. 第一次游玩保留默认自动设置，先查看城市“为什么没有发展”。
+4. 关闭面板并恢复时间。大多数系统按游戏年结算。
+5. 需要干预时，再调整研究、政策、分工、建设、军备或外交。
 
-研究突破、外交变化、工程竣工和改革结果会进入原版左上角历史提示与历史书。开启历史显示，在历史书中选“全部”；只看某个国家时也可以打开国家面板的“事件”页。
+自然工业化不是固定倒计时。粮食、战争、人口、库存和研究都会改变节奏，几十年后才出现工业城市很正常。
 
-国家面板有六页：
+## English
 
-| 页面 | 先看什么 |
-|---|---|
-| 总览 | 当前国家是否缺粮、缺资源或尚未达到时代条件 |
-| 科研 | 当前项目、研究预算和三路科技树 |
-| 施政 | 国家政策、城市建设、城市分工和国内改革 |
-| 军备 | 本城可补装的武器与后期核打击 |
-| 外交 | 外交路线、对象国、条约、禁运和援助 |
-| 事件 | 国内待办、国家记录和世界外交纪事 |
+World Ascension adds a slow, observable path of civilization development to WorldBox. Cities progress from the medieval stage into workshops, industry, and the modern era. Countries research technologies, build public services, choose policies, respond to crises, and divide real stock between war and development.
 
-## 最常见的“为什么没发生”
+The in-game interface supports Simplified Chinese and English and follows the WorldBox language setting. See [PLAYER_GUIDE.md](PLAYER_GUIDE.md) for rules and [INSTALL.md](INSTALL.md) for setup.
 
-- **城市没有升级：** 同时检查人口、城龄、金属、黄金、国家科技和“自动时代发展”开关。
-- **科研没有增长：** 城市必须达到项目最低时代、不缺粮，并能在出资后保留3黄金和2金属。
-- **工坊或工厂没有生产：** 检查年度是否已结算、木材或仓库空间是否充足，以及工厂生产开关。
-- **工程没有推进：** 缺粮、科研关闭、前置失效或稳定过低都会使有效工期暂停。
-- **自动分工没有变化：** 城市需要至少15黄金、完成10年改换冷却，并保持自动模式。
+### Verified environment
 
-关闭国家科研、国家施政或城市发展会暂停相关结算，但不会清空已保存的科技、工程、设施或分工。国家面板的“全局控制”可以集中查看常用开关。
+- Windows
+- WorldBox 0.51.2, Steam build 19962337
+- NeoModLoader 1.2.0.1
 
-“推进城市时代”和“全国现代化”属于玩家神力，会绕过自然门槛。想观察正常发展速度时，不要用它们判断工业化是否过慢。
+Other operating systems, game versions, and mod combinations are not yet confirmed.
 
-更完整的费用、门槛和故障排查见 `START_HERE.html` 的“完整机制与数字”，或 随包 `WorldAscension/docs/PLAYER_GUIDE.md` 或本仓库 `PLAYER_GUIDE.md`。
+### Features
 
+- Workshop, Industrial, and Modern eras gated by population, city age, stock, and technology.
+- Eleven technologies across Industry, Civil, and Military branches.
+- Yearly workshop and factory production, plus Agriculture, Industry, and Academic city roles.
+- Public granaries, municipal hospitals, city academies, and domestic food logistics.
+- National policy, stability, domestic events, postwar reconstruction, and education reform.
+- Trade, non-aggression, embargoes, aid, modern armaments, and late-game atomic engineering.
+- Optional Ascension Candidate progression.
+
+### Five-minute start
+
+1. Install and enable the mod, then create a new world or load a copy of an existing one.
+2. Open **World Ascension → Overview → National Panel**, then select a city.
+3. Keep the default automatic settings for your first game and read why the city is stalled.
+4. Close the panel and resume time. Most systems settle once per game year.
+5. Adjust research, policy, city roles, construction, military supply, or diplomacy when intervention is useful.
+
+Natural industrialization is not a fixed countdown. Food, war, population, stock, and research all affect its pace, so taking decades to reach industry is normal.
