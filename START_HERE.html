@@ -1,210 +1,173 @@
 <!doctype html>
 <html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>World Ascension · 玩家手册</title>
+<title>World Ascension · 玩家手册 / Player Guide</title>
 <style>
 :root{color-scheme:light;--paper:#f6f4ee;--ink:#233a34;--muted:#64756b;--line:#d9dfd5;--accent:#247655}
 *{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:24px}body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.8 "Segoe UI","Microsoft YaHei",sans-serif}a{color:var(--accent);text-underline-offset:3px}a:hover{color:#11452d}aside{position:fixed;inset:0 auto 0 0;width:250px;background:#193c30;color:#e7efdf;padding:38px 26px;overflow:auto}.brand{font-size:25px;font-weight:750;line-height:1.2;letter-spacing:-.5px}.eyebrow{font-size:12px;letter-spacing:2px;color:#a9c2a7}aside p{color:#b7cbb7;font-size:14px}nav{display:grid;gap:8px;margin-top:32px}nav a{padding:10px 12px;border-radius:7px;color:#ecf1e5;text-decoration:none;background:#244a3b}nav a:hover{background:#35634f;color:#fff}.hint{margin-top:32px;font-size:12px}main{max-width:1280px;margin-left:250px;padding:32px 5vw 80px}section{padding:10px 0 46px;border-bottom:1px solid var(--line);scroll-margin-top:20px}h1{font-size:34px;line-height:1.3;letter-spacing:-.8px;margin:16px 0 24px}h2{font-size:23px;margin:38px 0 14px}h3{font-size:19px;margin:28px 0 12px}p{margin:12px 0}li{margin:5px 0}.section-label{color:var(--muted);font-size:12px;letter-spacing:1.5px;text-transform:uppercase;margin-top:24px}table{border-collapse:collapse;width:100%;margin:18px 0;font-size:14px;background:#fffcf4}th,td{padding:11px 13px;border:1px solid var(--line);text-align:left;vertical-align:top;overflow-wrap:anywhere}th{background:#e8eedf}blockquote{margin:20px 0;padding:10px 18px;border-left:4px solid #92ad74;background:#eaf0e2;color:#455b4c}code{font-size:.9em;background:#e6eadf;padding:2px 4px;border-radius:3px;overflow-wrap:anywhere}pre{overflow:auto;padding:16px;background:#e6eadf}pre code{padding:0}.top-link{display:inline-block;margin:22px 0;font-size:13px}footer{font-size:13px;color:var(--muted);padding-top:22px}
 @media(max-width:820px){aside{position:static;width:auto;padding:24px}.brand br{display:none}nav{grid-template-columns:1fr 1fr;margin-top:18px;gap:6px}.hint{margin-top:14px}main{margin:0;padding:16px 20px 50px}h1{font-size:28px}table{display:block;overflow-x:auto}th,td{min-width:100px}.eyebrow{margin-bottom:8px}}
 @media print{aside{display:none}main{margin:0;max-width:none;padding:0}body{background:white;font-size:11pt}h1{font-size:22pt}h2{break-after:avoid}tr{break-inside:avoid}a{color:inherit}section{padding-bottom:18px}footer{display:none}}
 </style></head><body>
-<aside><div class="eyebrow">WORLDBOX COMMUNITY MOD</div><div class="brand">WORLD<br>ASCENSION</div><p>从工坊到现代。<br>看懂一个国家如何发展。</p><nav><a href="#start">01 · 五分钟上手</a><a href="#install">02 · 安装与更新</a><a href="#rules">03 · 机制与数字</a><a href="#future">04 · 2.0 前瞻</a></nav><p class="hint">离线可读，无需账户。<br>用 Ctrl+F 搜索“科研”“医院”或“为什么”。</p></aside>
-<main><section id="start"><p class="section-label">认识模组 · 五分钟上手</p><h1 id="start-world-ascension">World Ascension</h1>
-<p>World Ascension 为 WorldBox 增加一条缓慢、可观察的文明发展路线。城市会在原版人口、资源和战争变化之上逐步进入工坊、工业与现代阶段，国家则会研究科技、选择政策、建设公共设施并处理危机。</p>
-<p>这是1.0版的入门介绍。先按默认设置观察文明变化，需要干预时再打开国家面板；完整数字和触发条件都在随包离线手册中。</p>
-<h2 id="start-section">兼容性</h2>
-<p>目前只确认以下环境：</p>
+<aside><div class="eyebrow">WORLDBOX COMMUNITY MOD</div><div class="brand">WORLD<br>ASCENSION</div><p>从工坊到现代。<br>From workshops to the modern era.</p><nav><a href="#start">01 · 介绍 / Intro</a><a href="#install">02 · 安装 / Install</a><a href="#rules">03 · 指南 / Guide</a><a href="#future">04 · 路线图 / Roadmap</a></nav><p class="hint">离线可读 / Works offline.<br>用 Ctrl+F 搜索关键词 / Search with Ctrl+F.</p></aside>
+<main><section id="start"><p class="section-label">介绍 / Introduction</p><h1 id="start-world-ascension-1.0">World Ascension 1.0</h1>
+<p>中文 | <a href="#start-english">English</a></p>
+<p>World Ascension 为 WorldBox 增加一条缓慢、可观察的文明发展路线。城市会从中世纪逐步进入工坊、工业与现代阶段，国家会研究科技、建设公共设施、选择政策、处理危机，并在战争与发展之间分配真实库存。</p>
+<p>游戏界面支持简体中文与 English，并跟随 WorldBox 的语言设置。详细机制见 <a href="PLAYER_GUIDE.md">PLAYER_GUIDE.md</a>，安装步骤见 <a href="INSTALL.md">INSTALL.md</a>。</p>
+<h2 id="start-section">兼容环境</h2>
 <ul>
 <li>Windows</li>
-<li>WorldBox 0.51.2，build 19962337</li>
+<li>WorldBox 0.51.2，Steam build 19962337</li>
 <li>NeoModLoader 1.2.0.1</li>
 </ul>
-<p>其他系统、游戏版本或加载器版本尚未确认兼容。</p>
-<p>下载包内的 <code>WorldAscension/</code> 是模组目录；先打开包外的 <code>START_HERE.html</code> 阅读离线手册，按 <code>INSTALL.md</code> 安装。不要把整个压缩包直接放进游戏目录。</p>
-<h2 id="start-section-1">它增加了什么</h2>
+<p>其他系统、游戏版本和模组组合尚未确认兼容。</p>
+<h2 id="start-section-1">主要内容</h2>
 <ul>
-<li><strong>自然文明演进：</strong> 城市满足人口、城龄、库存和国家科技条件后自然升级。正常世界约50年才出现第一批工业城市并不异常。</li>
-<li><strong>国家科研：</strong> 11项科技分为工业、民生和军事三路，城市使用真实黄金与金属逐年出资。</li>
-<li><strong>年度生产：</strong> 工坊用木材转化金属，真实工厂生产金属与黄金；科技和城市分工会改变产出。</li>
-<li><strong>城市分工：</strong> 城市可选择均衡、农业、工业或学术路线，也可交给系统自动判断。</li>
-<li><strong>公共工程：</strong> 公共粮仓缓冲缺粮，医院治疗居民，学府提高科研效率，物流在同国城市间搬运真实食物。</li>
-<li><strong>国家治理：</strong> 国家政策、稳定、国内事件以及国家重建、教育改革会消耗实际库存并影响发展节奏。</li>
-<li><strong>外交与军备：</strong> 包含贸易、互不侵犯、禁运、援助、付费武器补装和后期核工程。</li>
-<li><strong>可选飞升：</strong> 手动赋予本模组候选者特质后可体验强者成长。公开版保留原版生物发现和特质解锁条件，不附带全解锁工具。</li>
+<li>工坊、工业、现代三个发展阶段，升级取决于人口、城龄、库存和科技。</li>
+<li>工业、民生、军事三条研究路线，共11项科技。</li>
+<li>按游戏年结算的工坊与工厂生产，以及农业、工业、学术城市分工。</li>
+<li>公共粮仓、市立医院、城市学府与同国内部粮运。</li>
+<li>国家政策、稳定、国内事件、战后重建和教育改革。</li>
+<li>贸易、互不侵犯、禁运、援助、现代军备与后期核工程。</li>
+<li>可选的飞升候选者成长玩法。</li>
 </ul>
-<p>医院会优先复用城市已有的原生神庙外观，学府会优先复用原生图书馆外观；没有合适载体时，设施仍作为城市服务生效。</p>
-<p>核武器只接受玩家手动下令，AI不会自动发射。它会破坏地形并波及友军，使用前需要二次确认。</p>
-<p>这个模组不是加入坦克、飞机和完整现代社会模拟的全面现代化游戏。它把重点放在城市资源、科研、治理和长期国家变化上。</p>
 <h2 id="start-section-2">五分钟上手</h2>
 <ol>
-<li>创建或载入一个正常世界，让至少一个王国拥有稳定发展的城市。</li>
-<li>打开底部的“世界飞升”页，选择“总览”，再点“国家面板”。</li>
-<li>点击地图上的城市。面板会显示该国人口、库存、稳定、缺粮、科技和工程没有发展的原因。</li>
-<li>第一次游玩可保留默认设置：自动时代发展、国家科研、国家施政、外交和城市发展均开启；科研使用“自动＋常规”。</li>
-<li>让时间自然推进。工坊的默认门槛是20人口、3年城龄和3金属；进入工业还需要更高人口、库存和精密工具研究。</li>
+<li>安装并启用模组后，创建新世界或载入世界副本。</li>
+<li>打开 <strong>世界飞升 → 总览 → 国家面板</strong>，再点击一座城市。</li>
+<li>第一次游玩保留默认自动设置，先查看城市“为什么没有发展”。</li>
+<li>关闭面板并恢复时间。大多数系统按游戏年结算。</li>
+<li>需要干预时，再调整研究、政策、分工、建设、军备或外交。</li>
 </ol>
-<p>研究突破、外交变化、工程竣工和改革结果会进入原版左上角历史提示与历史书。开启历史显示，在历史书中选“全部”；只看某个国家时也可以打开国家面板的“事件”页。</p>
-<p>国家面板有六页：</p>
+<p>自然工业化不是固定倒计时。粮食、战争、人口、库存和研究都会改变节奏，几十年后才出现工业城市很正常。</p>
+<h2 id="start-english">English</h2>
+<p>World Ascension adds a slow, observable path of civilization development to WorldBox. Cities progress from the medieval stage into workshops, industry, and the modern era. Countries research technologies, build public services, choose policies, respond to crises, and divide real stock between war and development.</p>
+<p>The in-game interface supports Simplified Chinese and English and follows the WorldBox language setting. See <a href="PLAYER_GUIDE.md">PLAYER_GUIDE.md</a> for rules and <a href="INSTALL.md">INSTALL.md</a> for setup.</p>
+<h3 id="start-verified-environment">Verified environment</h3>
+<ul>
+<li>Windows</li>
+<li>WorldBox 0.51.2, Steam build 19962337</li>
+<li>NeoModLoader 1.2.0.1</li>
+</ul>
+<p>Other operating systems, game versions, and mod combinations are not yet confirmed.</p>
+<h3 id="start-features">Features</h3>
+<ul>
+<li>Workshop, Industrial, and Modern eras gated by population, city age, stock, and technology.</li>
+<li>Eleven technologies across Industry, Civil, and Military branches.</li>
+<li>Yearly workshop and factory production, plus Agriculture, Industry, and Academic city roles.</li>
+<li>Public granaries, municipal hospitals, city academies, and domestic food logistics.</li>
+<li>National policy, stability, domestic events, postwar reconstruction, and education reform.</li>
+<li>Trade, non-aggression, embargoes, aid, modern armaments, and late-game atomic engineering.</li>
+<li>Optional Ascension Candidate progression.</li>
+</ul>
+<h3 id="start-five-minute-start">Five-minute start</h3>
+<ol>
+<li>Install and enable the mod, then create a new world or load a copy of an existing one.</li>
+<li>Open <strong>World Ascension → Overview → National Panel</strong>, then select a city.</li>
+<li>Keep the default automatic settings for your first game and read why the city is stalled.</li>
+<li>Close the panel and resume time. Most systems settle once per game year.</li>
+<li>Adjust research, policy, city roles, construction, military supply, or diplomacy when intervention is useful.</li>
+</ol>
+<p>Natural industrialization is not a fixed countdown. Food, war, population, stock, and research all affect its pace, so taking decades to reach industry is normal.</p>
+</section>
+<section id="install"><p class="section-label">安装 / Installation</p><h1 id="install-installation-and-updates">安装与更新 / Installation and Updates</h1>
+<h2 id="install-section">中文</h2>
+<p>World Ascension 是 WorldBox 的社区代码模组，需要 NeoModLoader（NML）。目前确认兼容 Windows、WorldBox 0.51.2（Steam build 19962337）和 NML 1.2.0.1。</p>
+<h3 id="install-section-1">安装</h3>
+<ol>
+<li>按 <a href="https://worldboxopenmods.gitbook.io/mod-tutorial-en/player-manual/install">NML 安装说明</a>安装与游戏版本匹配的 NeoModLoader，并开启 WorldBox 的 Experimental Mode。</li>
+<li>关闭 WorldBox。</li>
+<li>解压下载包，把其中整个 <code>WorldAscension</code> 文件夹放进游戏目录的 <code>Mods</code> 文件夹。</li>
+<li>检查最终路径为 <code>worldbox/Mods/WorldAscension/mod.json</code>；<code>WorldAscension.dll</code> 应与 <code>mod.json</code> 同级。</li>
+<li>启动游戏，在 NML 模组列表中确认 <strong>World Ascension</strong> 已启用。</li>
+<li>建议先用新世界或已有世界的副本游玩。入口是 <strong>世界飞升 → 总览 → 国家面板</strong>。</li>
+</ol>
+<p>不要把整个ZIP直接放进 <code>Mods</code>，也不要同时启用手动安装和 Steam Workshop 订阅的两个副本。</p>
+<h3 id="install-section-2">语言</h3>
+<p>模组跟随 WorldBox 的语言设置。中文语言使用简体中文界面，English 使用英文界面。切换语言后重新打开模组窗口；没有立即刷新时请重启游戏。</p>
+<h3 id="install-section-3">更新与移除</h3>
+<ul>
+<li>更新前关闭游戏，并备份重要世界。</li>
+<li>把旧 <code>WorldAscension</code> 文件夹移出游戏扫描目录，再放入新版本；不要在游戏运行时覆盖 DLL。</li>
+<li>移除时关闭游戏，再移走模组文件夹或取消订阅。包含自定义建筑、装备或特质的世界可能依赖本模组，返回纯原版时优先使用安装前的世界备份。</li>
+<li>日志位于 <code>worldbox/Logs/WorldAscension/worldascension.log</code>。</li>
+</ul>
+<h2 id="install-english">English</h2>
+<p>World Ascension is a community code mod for WorldBox and requires NeoModLoader (NML). The verified environment is Windows, WorldBox 0.51.2 (Steam build 19962337), and NML 1.2.0.1.</p>
+<h3 id="install-install">Install</h3>
+<ol>
+<li>Follow the <a href="https://worldboxopenmods.gitbook.io/mod-tutorial-en/player-manual/install">NML installation guide</a> to install a NeoModLoader version compatible with your game, then enable Experimental Mode in WorldBox.</li>
+<li>Close WorldBox.</li>
+<li>Extract the download and place the entire <code>WorldAscension</code> folder inside the game's <code>Mods</code> folder.</li>
+<li>Confirm the final path is <code>worldbox/Mods/WorldAscension/mod.json</code>; <code>WorldAscension.dll</code> must be next to <code>mod.json</code>.</li>
+<li>Start the game and confirm <strong>World Ascension</strong> is enabled in the NML mod list.</li>
+<li>Start with a new world or a copy of an existing one. Open <strong>World Ascension → Overview → National Panel</strong>.</li>
+</ol>
+<p>Do not place the ZIP itself in <code>Mods</code>, and do not enable both a manual copy and a Steam Workshop subscription at the same time.</p>
+<h3 id="install-language">Language</h3>
+<p>The mod follows the WorldBox language setting. Chinese uses the Simplified Chinese interface, and English uses the English interface. Reopen the mod window after switching languages; restart the game if it does not refresh immediately.</p>
+<h3 id="install-update-or-remove">Update or remove</h3>
+<ul>
+<li>Close the game and back up important worlds before updating.</li>
+<li>Move the old <code>WorldAscension</code> folder outside the game's scan path, then install the new copy. Do not overwrite the DLL while the game is running.</li>
+<li>To remove the mod, close the game and move the folder away or unsubscribe. Worlds containing custom buildings, equipment, or traits may depend on the mod; use a pre-install backup when returning to vanilla.</li>
+<li>The log is at <code>worldbox/Logs/WorldAscension/worldascension.log</code>.</li>
+</ul>
+<p>When reporting a problem, include the WorldBox, NML, and World Ascension versions, other enabled mods, reproduction steps, and the relevant log lines.</p>
+</section>
+<section id="rules"><p class="section-label">玩家指南 / Player Guide</p><h1 id="rules-world-ascension-1.0-player-guide">World Ascension 1.0 玩家指南 / Player Guide</h1>
+<p>World Ascension 会跟随 WorldBox 的游戏语言显示简体中文或 English。切换游戏语言后重新打开模组窗口；若界面没有立即刷新，请重启游戏。</p>
+<p>World Ascension follows the WorldBox language setting and displays Simplified Chinese or English. Reopen the mod window after changing language; restart the game if the interface does not refresh immediately.</p>
+<h2 id="rules-section">中文指南</h2>
+<h3 id="rules-section-1">快速开始</h3>
+<ol>
+<li>进入世界后打开 <strong>世界飞升 → 总览 → 国家面板</strong>，再点击一座城市。</li>
+<li>第一次游玩建议保留默认设置：自动时代发展、科研、施政、外交与城市发展均开启，科研使用“自动＋常规”。</li>
+<li>关闭面板并恢复时间。生产、科研、治理、工程和外交主要按游戏年结算。</li>
+<li>先观察城市为何停滞，再决定是否调整研究、政策、分工或建设。</li>
+</ol>
+<p>正常世界在几十年后才出现工业城市并不异常。自然演进同时取决于人口、城龄、库存与科技，不是固定倒计时。“推进城市时代”和“全国现代化”会绕过自然条件。</p>
+<h3 id="rules-section-2">国家面板</h3>
 <table>
 <thead>
 <tr>
 <th>页面</th>
-<th>先看什么</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>总览</td>
-<td>当前国家是否缺粮、缺资源或尚未达到时代条件</td>
-</tr>
-<tr>
-<td>科研</td>
-<td>当前项目、研究预算和三路科技树</td>
-</tr>
-<tr>
-<td>施政</td>
-<td>国家政策、城市建设、城市分工和国内改革</td>
-</tr>
-<tr>
-<td>军备</td>
-<td>本城可补装的武器与后期核打击</td>
-</tr>
-<tr>
-<td>外交</td>
-<td>外交路线、对象国、条约、禁运和援助</td>
-</tr>
-<tr>
-<td>事件</td>
-<td>国内待办、国家记录和世界外交纪事</td>
-</tr>
-</tbody>
-</table>
-<h2 id="start-section-3">最常见的“为什么没发生”</h2>
-<ul>
-<li><strong>城市没有升级：</strong> 同时检查人口、城龄、金属、黄金、国家科技和“自动时代发展”开关。</li>
-<li><strong>科研没有增长：</strong> 城市必须达到项目最低时代、不缺粮，并能在出资后保留3黄金和2金属。</li>
-<li><strong>工坊或工厂没有生产：</strong> 检查年度是否已结算、木材或仓库空间是否充足，以及工厂生产开关。</li>
-<li><strong>工程没有推进：</strong> 缺粮、科研关闭、前置失效或稳定过低都会使有效工期暂停。</li>
-<li><strong>自动分工没有变化：</strong> 城市需要至少15黄金、完成10年改换冷却，并保持自动模式。</li>
-</ul>
-<p>关闭国家科研、国家施政或城市发展会暂停相关结算，但不会清空已保存的科技、工程、设施或分工。国家面板的“全局控制”可以集中查看常用开关。</p>
-<p>“推进城市时代”和“全国现代化”属于玩家神力，会绕过自然门槛。想观察正常发展速度时，不要用它们判断工业化是否过慢。</p>
-<p>更完整的费用、门槛和故障排查见 <code>START_HERE.html</code> 的“完整机制与数字”，或 <code>WorldAscension/docs/PLAYER_GUIDE.md</code>。</p>
-</section>
-<section id="install"><p class="section-label">安装与更新</p><h1 id="install-section">安装与更新</h1>
-<p>本包是 WorldBox 的社区代码模组，需要 NeoModLoader（NML）。目前仅验证 Windows、WorldBox 0.51.2（Steam build 19962337）、NML 1.2.0.1。不要为了安装本包直接更新一个正在使用的固定版本。</p>
-<h2 id="install-nml">第一次安装 NML</h2>
-<ol>
-<li>在 Steam 的 WorldBox 属性中选择“已安装文件 → 浏览”，找到包含 <code>worldbox.exe</code> 的游戏目录。</li>
-<li>按 <a href="https://worldboxopenmods.gitbook.io/mod-tutorial-en/player-manual/install">NML 官方安装说明</a>取得与游戏匹配的加载器。首次安装需要手动放入 <code>worldbox_Data/StreamingAssets/mods/NeoModLoader.dll</code>；单纯订阅创意工坊不会完成这一步。</li>
-<li>开启游戏设置里的实验模式（Experimental Mode），退出后重新启动，让 NML 完成初始化。</li>
-<li>确认游戏里出现 NML 的模组列表，再正常关闭游戏。</li>
-</ol>
-<p>本包不附带游戏本体、原版程序集或 NML。加载器与游戏版本不匹配时，请查对应版本说明，不要混装多个加载器。</p>
-<h2 id="install-world-ascension">安装 World Ascension</h2>
-<ol>
-<li>关闭 WorldBox，把解压后的整个 <code>WorldAscension</code> 文件夹放入游戏目录的 <code>Mods</code> 文件夹。</li>
-<li>检查最终路径：<code>worldbox/Mods/WorldAscension/mod.json</code>。<code>WorldAscension.dll</code> 应与 <code>mod.json</code> 同级；避免多套一层文件夹。</li>
-<li>启动游戏，在 NML 模组列表中确认 <strong>World Ascension</strong> 已启用。若显示加载失败，先核对游戏、NML 和模组版本。</li>
-<li>用新世界或已有世界的副本开始游玩。入口是 <strong>世界飞升 → 总览 → 国家面板</strong>，然后点击一座城市。</li>
-</ol>
-<p>只保留一个启用的 World Ascension 副本；手动安装与 Workshop 订阅版本不要同时加载。NML 的常规启用/停用操作通常需要重启游戏。<a href="https://worldboxopenmods.gitbook.io/mod-tutorial-en/player-manual/howtouseit">NML 使用说明</a></p>
-<h2 id="install-section-1">更新与移除</h2>
-<ul>
-<li><strong>更新：</strong> 先关闭游戏，将旧模组文件夹移到游戏扫描目录之外作为备份，再放入新版本文件夹。不要在游戏运行时覆盖 DLL。</li>
-<li><strong>世界备份：</strong> 模组将科技、设施、分工、国家计划等保存在世界数据里。更新前保留一份未覆盖的世界副本。</li>
-<li><strong>移除：</strong> 关闭游戏后移走模组文件夹或停用订阅。已有世界中的自定义建筑、装备、特质可能依赖本模组，因此不承诺移除后能无损继续。需要回到纯原版时优先使用安装前的世界备份。</li>
-<li><strong>日志：</strong> 模组日志位于游戏目录的 <code>Logs/WorldAscension/worldascension.log</code>。反馈时附版本、复现步骤和相关错误片段；分享日志前检查其中是否含私人路径。</li>
-</ul>
-<h2 id="install-section-2">反馈时写什么</h2>
-<p>说明游戏版本、NML 版本、模组版本，以及使用的新世界或旧世界、发生前的操作、期望结果与实际结果。国家面板的原因提示能帮助区分条件未满足和程序故障。无需上传整个个人存档目录。</p>
-</section>
-<section id="rules"><p class="section-label">完整机制与数字</p><h1 id="rules-world-ascension-1.0">World Ascension 1.0 玩家指南</h1>
-<blockquote>
-<p>本指南说明1.0的默认规则、费用与操作。已确认兼容 Windows、WorldBox 0.51.2（build 19962337）与 NeoModLoader 1.2.0.1；修改高级配置后以游戏面板显示的实际数字为准。</p>
-</blockquote>
-<h2 id="rules-section">先这样开始</h2>
-<ol>
-<li>进入世界后打开 <strong>世界飞升 → 总览 → 国家面板</strong>，再点击你要管理的国家城市。</li>
-<li>国家面板打开时游戏通常处于暂停状态。看完或改完设置后关掉窗口，并恢复时间；科研、生产、工程、治理和事件大多按游戏年结算。</li>
-<li>第一次玩可以保留默认设置：自动时代发展、国家科研、国家施政、国内事件、自主外交、经济外交、城市发展与分工等均开启；科研保持“自动＋常规”。</li>
-<li>优先让工坊城市研究精密工具。城市达到人口、年龄和库存门槛后会自然进入工业；缺金属时，工坊每年可以用木材生产金属。</li>
-<li>工业以后再逐步建设粮仓、医院和学府，按国家状况选择城市分工。战争结束后可考虑国家重建，和平富裕时可推进教育改革。</li>
-</ol>
-<p>文明发展由城龄、人口、库存和研究条件共同决定。一个正常发展的世界到约50年才看到第一座工业城市并不异常，但这不是强制等待50年的计时器。旧存档里城市本身已有数百年历史时，不能把读档后经过的年数当成文明诞生至工业化的时间。手动“推进城市时代”与“全国现代化”属于上帝干预，会跳过自然条件，不能用来衡量自然发展速度。</p>
-<h2 id="rules-section-1">国家面板怎么读</h2>
-<p>国家面板有六个主页面，常用管理都集中在这里，没有增加一排新的底部工具按钮。</p>
-<table>
-<thead>
-<tr>
-<th>主页面</th>
 <th>用途</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>总览</td>
-<td>看国家人口、库存、战争、平均稳定、缺粮城市、科技数、工程数；逐城查看“为什么没有发展”；进入全局控制</td>
+<td>查看人口、库存、战争、稳定、缺粮、科技与公共工程，并逐城查看停滞原因</td>
 </tr>
 <tr>
 <td>科研</td>
-<td>选择自动/工业/民生/军事方向，选择暂停/常规/密集预算，查看当前项目和11项科技树</td>
+<td>选择研究方向与预算，查看11项科技树</td>
 </tr>
 <tr>
 <td>施政</td>
-<td>在国家政策、城市建设、城市分工、国内改革四个子页之间切换</td>
+<td>管理国家政策、城市建设、城市分工和国内改革</td>
 </tr>
 <tr>
 <td>军备</td>
-<td>付费补装普通枪械和重武器；进入后期核打击界面</td>
+<td>按城市库存补装武器，或准备后期核打击</td>
 </tr>
 <tr>
 <td>外交</td>
-<td>选择外交路线、对象国、贸易、互不侵犯、禁运和援助</td>
+<td>管理外交路线、贸易、互不侵犯、禁运与援助</td>
 </tr>
 <tr>
 <td>事件</td>
-<td>处理粮食危机或战时科研预算争论，查看国家事件和世界外交纪事</td>
+<td>处理国内议题，查看国家记录与世界外交纪事</td>
 </tr>
 </tbody>
 </table>
-<p>施政页的四个子页是：</p>
-<table>
-<thead>
-<tr>
-<th>子页</th>
-<th>管理内容</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>国家政策</td>
-<td>均衡、福利、工业、战时四种政策；城市救济与自治</td>
-</tr>
-<tr>
-<td>城市建设</td>
-<td>公共粮仓、市立医院、城市学府；逐国自动建设</td>
-</tr>
-<tr>
-<td>城市分工</td>
-<td>均衡、农业、工业、学术；逐城自动或手动锁定</td>
-</tr>
-<tr>
-<td>国内改革</td>
-<td>国家重建、教育改革；逐国自动改革</td>
-</tr>
-</tbody>
-</table>
-<p>“上一城/下一城”只在当前国家内切换。要换国家，请关闭面板后点击另一个国家的城市。</p>
-<h2 id="rules-section-2">自然时代发展没有提速</h2>
-<p>自然发展保留四档：中世纪阶段、工坊、工业、现代。自动系统约每10世界秒检查一次，每轮最多推进一档。</p>
+<h3 id="rules-section-3">时代与生产</h3>
 <table>
 <thead>
 <tr>
 <th>目标时代</th>
 <th style="text-align: right;">默认人口</th>
 <th style="text-align: right;">城龄</th>
-<th>库存门槛</th>
-<th>默认科研前置</th>
+<th>库存与科技</th>
 </tr>
 </thead>
 <tbody>
@@ -213,289 +176,65 @@
 <td style="text-align: right;">20</td>
 <td style="text-align: right;">3年</td>
 <td>3金属</td>
-<td>无</td>
 </tr>
 <tr>
 <td>工业</td>
 <td style="text-align: right;">45</td>
 <td style="text-align: right;">10年</td>
-<td>12金属、5黄金</td>
-<td>精密工具</td>
+<td>12金属、5黄金、精密工具</td>
 </tr>
 <tr>
 <td>现代</td>
 <td style="text-align: right;">80</td>
 <td style="text-align: right;">20年</td>
-<td>25金属、12黄金</td>
-<td>电气化</td>
+<td>25金属、12黄金、电气化</td>
 </tr>
 </tbody>
 </table>
-<p>人口门槛可在高级设置调整，并会保持“工坊 &lt; 工业 &lt; 现代”。科研前置由“时代升级需要科研”开关控制。关闭整个科研系统时，科研成果暂停，但自然时代的科研门槛也会解除；既有工业或现代城市不会降级。</p>
-<p>每次<strong>实际升档</strong>仍只发一次时代启动物资：</p>
-<table>
-<thead>
-<tr>
-<th>升到</th>
-<th style="text-align: right;">金属</th>
-<th style="text-align: right;">木材</th>
-<th style="text-align: right;">黄金</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>工坊</td>
-<td style="text-align: right;">8</td>
-<td style="text-align: right;">4</td>
-<td style="text-align: right;">3</td>
-</tr>
-<tr>
-<td>工业</td>
-<td style="text-align: right;">16</td>
-<td style="text-align: right;">8</td>
-<td style="text-align: right;">6</td>
-</tr>
-<tr>
-<td>现代</td>
-<td style="text-align: right;">24</td>
-<td style="text-align: right;">12</td>
-<td style="text-align: right;">9</td>
-</tr>
-</tbody>
-</table>
-<p>升档后会尝试按新时代为居民补装武器，但武器只在成功发放后从城市真实库存扣费。重复对已经达到目标时代的城市使用干预，不会重复领取启动物资。</p>
-<p>“推进城市时代”每次跳一档，“全国现代化”把所选国家城市直接设为现代；二者都属于上帝干预，会绕过人口、城龄、库存和科研条件。它们保留一次性启动物资和付费武装规则。</p>
-<h2 id="rules-section-3">工坊和工厂的年度生产</h2>
-<p>生产现在按游戏年结算，不再按现实时间约60秒反复生产。</p>
-<table>
-<thead>
-<tr>
-<th>城市状态</th>
-<th>年度基础生产</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>工坊</td>
-<td>2木材换实际入库的最多2金属；必须至少有5木，支付后保留3木</td>
-</tr>
-<tr>
-<td>工业，且有真实工厂</td>
-<td>2金属、1黄金</td>
-</tr>
-<tr>
-<td>现代，且有真实工厂</td>
-<td>4金属、2黄金</td>
-</tr>
-</tbody>
-</table>
-<p>工坊或工厂第一次接入旧存档时只登记年度，不追补旧年份。仓库没有实际收到产物时，不收取对应木材燃料。工业或现代城市需要地图上的真实工厂；系统会尝试把原生风车原址升级为工厂，没有载体时才尝试新建。</p>
-<p>工厂科技可以叠加：精密工具每年再加1金属，电气化再加1金属和1黄金；自动化在有木材时消耗1木材，再加2金属和1黄金。完全没有实际入库时不扣自动化燃料。</p>
-<p>治理开启且稳定≤25时工厂停产。自治会把工厂产出减半。工业分工不是额外凭空产物，而是把本次计划产出的1黄金换成2金属。工业政策的投资另行结算：真实工作中的工业/现代工厂可花2黄金换实际入库的最多4金属，自治时最多2金属。</p>
-<h2 id="rules-section-4">科研：预算、出资和11项科技</h2>
-<p>科技属于国家，城市负责出资。每个项目的进度单独保存；切换研究方向不会丢进度。自动科研先补精密工具，战争时倾向军事，缺粮时倾向民生，其余时间补较落后的可研究分支。指定某一分支时，系统仍会先补齐必要前置。</p>
-<h3 id="rules-section-5">年度出资</h3>
-<table>
-<thead>
-<tr>
-<th>预算</th>
-<th>每座出资城基础费用</th>
-<th style="text-align: right;">基础研究点</th>
-<th>其他影响</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>暂停</td>
-<td>0</td>
-<td style="text-align: right;">0</td>
-<td>保留已有知识和进度</td>
-</tr>
-<tr>
-<td>常规</td>
-<td>2黄金、1金属</td>
-<td style="text-align: right;">2</td>
-<td>无稳定惩罚</td>
-</tr>
-<tr>
-<td>密集</td>
-<td>4黄金、2金属</td>
-<td style="text-align: right;">4</td>
-<td>出资城稳定−1</td>
-</tr>
-</tbody>
-</table>
-<p>出资后必须至少保留3黄金和2金属。城市还必须有仓库、达到项目要求时代、不缺粮；治理开启时稳定必须高于25。平时每国每年最多3座城市出资，每城每年最多一次。国家重建期间最多1城且预算最高只能是常规；教育改革执行期间最多2城。</p>
-<p>最后一笔按项目剩余点数收费。例如只差1点时，基础投入只收1黄金、1金属。系统不会把溢出点数带到下一项，也不会为没有实际加入的额外点收费。</p>
-<p>研究点加成按以下顺序结算：</p>
-<ol>
-<li>城市学府在现代、无线电有效、城市不缺粮且稳定正常，并且本城确实出资时，免费加1点。</li>
-<li>学术分工在工业以上且科研开启时，可为实际用到的1个额外点再付1黄金。</li>
-<li>教育改革完成后，符合条件的学术城市可再为第二个实际用到的额外点付1黄金。</li>
-</ol>
-<p>因此一座合格学术城市有学府且已经完成教育改革时，最多可在基础投入之外获得“学府免费1点＋两份各1金的额外点”。项目剩余点不足或黄金不足时，只结算实际可用部分。</p>
-<h3 id="rules-section-6">科技树</h3>
+<p>城市实际升档时获得一次启动物资：工坊8金属/4木/3金，工业16金属/8木/6金，现代24金属/12木/9金。重复干预不会重复发放。</p>
+<p>年度基础生产：</p>
+<ul>
+<li>工坊：2木换最多2金属，支付后至少保留3木。</li>
+<li>工业工厂：2金属、1黄金。</li>
+<li>现代工厂：4金属、2黄金。</li>
+<li>精密工具、电气化与自动化会继续提高工厂产出；稳定不高于25时工厂停产，自治会降低产出。</li>
+</ul>
+<h3 id="rules-section-4">国家科研</h3>
+<p>科技属于国家，由符合条件的城市逐年出资。常规预算每城支付2黄金和1金属获得2点；密集预算支付4黄金和2金属获得4点并使本城稳定−1。出资后至少保留3黄金和2金属。平时每国每年最多3座城市出资。</p>
 <table>
 <thead>
 <tr>
 <th>分支</th>
-<th>科技</th>
-<th style="text-align: right;">点数</th>
-<th>最低时代</th>
-<th>实际效果</th>
+<th>科技路线</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>工业</td>
-<td>精密工具</td>
-<td style="text-align: right;">12</td>
-<td>工坊</td>
-<td>默认允许自然进入工业；真实工厂年度产出+1金属</td>
-</tr>
-<tr>
-<td>工业</td>
-<td>电气化</td>
-<td style="text-align: right;">24</td>
-<td>工业</td>
-<td>默认允许自然进入现代；真实工厂再+1金属、1黄金</td>
-</tr>
-<tr>
-<td>工业</td>
-<td>物流网络</td>
-<td style="text-align: right;">28</td>
-<td>工业</td>
-<td>解锁同国内部的真实粮食运输</td>
-</tr>
-<tr>
-<td>工业</td>
-<td>自动化生产</td>
-<td style="text-align: right;">40</td>
-<td>现代</td>
-<td>有木材时，工厂每年耗1木再+2金属、1黄金</td>
+<td>精密工具 → 电气化 → 物流网络 → 自动化生产</td>
 </tr>
 <tr>
 <td>民生</td>
-<td>农学改良</td>
-<td style="text-align: right;">12</td>
-<td>工坊</td>
-<td>每座工坊以上城市每年实际加入最多6小麦</td>
-</tr>
-<tr>
-<td>民生</td>
-<td>基础医学</td>
-<td style="text-align: right;">24</td>
-<td>工业</td>
-<td>每城每年治疗最多10名伤员，每人恢复20生命</td>
-</tr>
-<tr>
-<td>民生</td>
-<td>公共卫生</td>
-<td style="text-align: right;">28</td>
-<td>工业</td>
-<td>解锁市立医院</td>
-</tr>
-<tr>
-<td>民生</td>
-<td>无线电行政</td>
-<td style="text-align: right;">36</td>
-<td>现代</td>
-<td>治理开启时，每座工坊以上城市每年稳定+1；解锁城市学府</td>
+<td>农学改良 → 基础医学 → 公共卫生 → 无线电行政</td>
 </tr>
 <tr>
 <td>军事</td>
-<td>榴弹技术</td>
-<td style="text-align: right;">18</td>
-<td>工业</td>
-<td>解锁榴弹发射器</td>
-</tr>
-<tr>
-<td>军事</td>
-<td>野战火炮</td>
-<td style="text-align: right;">36</td>
-<td>现代</td>
-<td>解锁野战炮</td>
-</tr>
-<tr>
-<td>军事</td>
-<td>核工程</td>
-<td style="text-align: right;">100</td>
-<td>现代</td>
-<td>解锁玩家手动核打击；还需野战火炮、自动化、无线电及各自前序</td>
+<td>榴弹技术 → 野战火炮 → 核工程</td>
 </tr>
 </tbody>
 </table>
-<p>高级军备仅在所属国家实际交战时自动补装，在科研之后单独进行；和平时期不自动采购，仍可通过军备页手动补装。因此某项军备科技在本年度科研结算中刚完成，同年后续军备结算就可以使用它。科研预算“暂停”只停止研发经费，不会自动关闭所有其他国家支出。</p>
-<h2 id="rules-section-7">国家政策、稳定和城市决定</h2>
-<p>城市稳定初始为60，限制在0至100。年度基础变化包括：和平+2；战争为−min(8, 2+连续战争年数/3向下取整)；粮食充足+1，缺粮−8；原版城市不快乐再−2；市政塔+1；有效自治+4。王位从一名在位君主更换为另一人时，全国城市稳定−5。</p>
-<table>
-<thead>
-<tr>
-<th>国家政策</th>
-<th>年度规则</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>均衡</td>
-<td>没有额外费用或修正</td>
-</tr>
-<tr>
-<td>福利</td>
-<td>每城尝试支付3黄金；支付成功额外稳定+5，付不起不扣费并额外稳定−3</td>
-</tr>
-<tr>
-<td>工业</td>
-<td>正常工作的工业/现代工厂花2黄金换最多4金属，自治最多2；有实际入库才收费，成功投资的城市额外稳定−2</td>
-</tr>
-<tr>
-<td>战时</td>
-<td>工坊以上城市按真实武器价格为最多6名现役士兵补装，自治最多3；没有额外批次费；所有城市额外稳定−3</td>
-</tr>
-</tbody>
-</table>
-<p>政策切换冷却5年。手动选择会锁定政策；“恢复国家自主选择政策”解除锁定。自主政策会根据战争、平均稳定、每城黄金和工业能力判断，但仍受5年冷却。</p>
-<p>城市决定只有两项：救济花5黄金使稳定+15；自治只用于非首都，花8黄金使稳定+10，并在10年内每年额外+4，同时工厂、工业投资和战时补装受限。救济和自治各自冷却5年。旧的即时“6金4金属换+20稳定”重建已经移除，国家重建在“国内改革”子页管理。</p>
-<p>稳定≤25连续3次年度结算会累计危机。国家至少3城，至少2座符合条件的非首都危机城市存在时，可触发最多3城的原版叛乱阴谋；国家冷却10年，并遵守原版叛乱世界法则。和平、粮食充足、稳定≥80且工业以上的城市，每5年最多获得一次实际入库的最多3黄金繁荣奖励。</p>
-<h2 id="rules-section-8">城市分工</h2>
-<p>城市分工随城市保存，易主后仍保留。默认是“均衡＋自动”。选择当前分工会把它锁为手动，但不会收费；真正改换分工花5黄金，支付后至少保留5黄金，并有10年城市冷却。自动改换要求城市至少有15黄金且冷却结束，同样实际支付5黄金。</p>
-<table>
-<thead>
-<tr>
-<th>分工</th>
-<th>生效条件与效果</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>均衡</td>
-<td>无额外修正</td>
-</tr>
-<tr>
-<td>农业</td>
-<td>工坊以上并有农学；每年用1木换实际入库的最多10小麦，支付后至少留3木；缺粮城市也能得到这份援助</td>
-</tr>
-<tr>
-<td>工业</td>
-<td>工业以上且有真实工厂；每次年度工厂生产把计划产出的1黄金换成2金属</td>
-</tr>
-<tr>
-<td>学术</td>
-<td>工业以上且科研开启；本城有效出资时可额外支付1黄金获得1点</td>
-</tr>
-</tbody>
-</table>
-<p>自动判断优先级为：缺粮且有农学时选农业；否则有学府、仍有可研究项目且达到工业时选学术；否则有真实工厂且达到工业时选工业；其余选均衡。自动模式不会覆盖玩家的手动锁定。关闭“城市发展与分工”会暂停分工自动判断和全部分工效果，但保存选择。</p>
-<h2 id="rules-section-9">城市公共工程</h2>
-<p>每国同时只能有一项工程在建，每城每种设施最多一座。手动开工一次付清，并要求支付后至少保留5黄金。工程只在不缺粮、时代和科技前置仍有效，并且治理开启时稳定高于25的年度推进；停工年度不追加费用，跳过多年也不会一次补进多格。主动停建不退款；城市易主会撤销旧政府未完成工程，已建成设施和粮仓储备跟随城市保留。</p>
+<p>学府可为合格出资提供1个免费研究点；学术分工可支付1黄金购买1点；教育改革完成后还能再购买1点。系统只收取实际用到的费用。</p>
+<h3 id="rules-section-5">政策、分工与建设</h3>
+<p>国家政策包括均衡、福利、工业和战时。切换政策有5年冷却；城市救济花5黄金获得15稳定，非首都自治花8黄金并持续10年。</p>
+<p>城市分工包括均衡、农业、工业和学术。真正改换分工花5黄金、至少保留5黄金，并有10年冷却。农业用木材增加小麦，工业把部分黄金产出改为金属，学术提高科研效率。</p>
+<p>每国同时只能建设一项公共工程：</p>
 <table>
 <thead>
 <tr>
 <th>工程</th>
-<th>开工费用</th>
+<th>费用</th>
 <th style="text-align: right;">有效工期</th>
-<th>前置</th>
-<th>完成效果</th>
+<th>作用</th>
 </tr>
 </thead>
 <tbody>
@@ -503,222 +242,34 @@
 <td>公共粮仓</td>
 <td>12金、6木</td>
 <td style="text-align: right;">2年</td>
-<td>工坊、农学</td>
-<td>容量60；每年存最多10小麦或在缺粮时放最多15小麦</td>
+<td>储存最多60粮，在缺粮时释放</td>
 </tr>
 <tr>
 <td>市立医院</td>
 <td>20金、8金属</td>
 <td style="text-align: right;">3年</td>
-<td>工业、公共卫生</td>
-<td>每年1金治疗最多12名伤员，每人+30生命；支付后留3金；无伤员不收费</td>
+<td>每年付费治疗受伤居民</td>
 </tr>
 <tr>
 <td>城市学府</td>
 <td>24金、12木</td>
 <td style="text-align: right;">4年</td>
-<td>现代、无线电</td>
-<td>合格科研出资免费+1点</td>
+<td>为合格科研出资增加免费研究点</td>
 </tr>
 </tbody>
 </table>
-<p>粮仓储存时会给普通粮留下至少<code>max(20, 人口/5)</code>，只移动真实小麦，不会凭空产粮。医院在缺粮或稳定≤25时暂停。</p>
-<p>医院竣工后会优先把本城已有的原生神庙原址转换为医院，学府会优先把原生图书馆原址转换为学府，保留原生占地和内容。找不到载体时，设施仍以抽象城市服务完整生效，不要求空地；以后出现合适载体时仍可显示。粮仓本身一直是抽象储备。</p>
-<p>逐国“自动建设”只在和平时开工，项目费用之外另保留15黄金，每国5年最多开一项，并且全国已有工地时不会再开。顺序优先粮仓，再考虑医院和学府。国家重建期间暂停自动开新工程，手动管理仍由界面条件决定。</p>
-<h2 id="rules-section-10">国内粮运</h2>
-<p>物流网络研究完成且科研、城市公共工程均开启后，国家每年最多帮助2座缺粮城市，每座最多实收15份原版食物。</p>
+<p>缺粮、前置不足或低稳定会暂停工程，但不追加费用。医院会优先复用本城神庙，学府会优先复用本城图书馆；没有合适建筑时，城市服务仍然生效。</p>
+<h3 id="rules-section-6">国内改革、军备与外交</h3>
 <ul>
-<li>每个目标只采用一个成功供方；一次成功运输收1黄金运费，所以全国每年最多2黄金。</li>
-<li>供方必须至少有6黄金，运输后保留5黄金和<code>max(20, 人口/5)</code>食物。</li>
-<li>目标实际收多少，供方才扣多少；目标仓库装不下时不会凭空消失。</li>
-<li>只在同一国家内运输，不跨国，也没有铁路、列车或道路封锁模拟。</li>
+<li>国家重建：和平时启动，持续5年，逐年帮助低稳定城市；重新开战会结束计划。</li>
+<li>教育改革：和平时启动，6年内需要4个获资年度；成功后增强学术城市科研。</li>
+<li>普通枪械费用：手枪3金属/1木，步枪5金属/1木，精确步枪7金属/1木。</li>
+<li>重武器费用：榴弹发射器10金属/3木，野战炮18金属/6木。</li>
+<li>核打击需要核工程、实际战争、现代出资城市的60黄金与40金属，并有20年国家冷却。界面要求先预备再确认；爆炸会破坏地形并波及友军。</li>
+<li>贸易协定持续10年，进口方每年用3黄金交换6金属；互不侵犯协定持续10年。</li>
+<li>禁运持续5年；援助转移5黄金与4金属，并可提高受援城市稳定。</li>
 </ul>
-<h2 id="rules-section-11">国内改革：两个国家计划</h2>
-<p>国家计划依赖治理系统。每国同时只能执行一项，启动任一计划后10年内不能再启动另一项；取消不会退款。计划费用可以从全国多个城市的安全结余共同支付，每座供款城保留5黄金和<code>max(20, 人口/5)</code>食物。</p>
-<h3 id="rules-section-12">国家重建</h3>
-<p>启动条件：当前和平；一场至少经历2次年度结算的战争在最近3年内结束；至少一座城市稳定低于60；全国安全结余可支付10黄金和20食物。</p>
-<p>计划持续5年。每年按稳定从低到高援助最多3座稳定低于60的城市；每座由<strong>全国安全结余</strong>支付2黄金、5食物，目标城市自身没有余粮或黄金也能受援，成功后稳定+4。重新开战会立刻取消。重建期间科研最多1座城市出资且预算最高常规，自动新工程暂停；截止年会先进行最后一次重建结算，再恢复普通科研上限。</p>
-<h3 id="rules-section-13">教育改革</h3>
-<p>启动条件：“城市发展与分工”和“国家科研”开启；和平；至少2座城市；已经完成精密工具；尚未完成过教育改革；全国安全结余可支付12黄金和30食物。</p>
-<p>计划期限6年。开始后的和平年度尝试从全国安全结余支付3黄金，累计至少4个获资年度才成功。战争或关闭科研/城市发展会让当年不能获资，但不会延长截止年。执行期间科研最多2城出资。成功后，符合条件的学术城市可为实际使用的第二个额外科研点再付1黄金。</p>
-<p>自动改革还要求全局“国家自主选择政策”开关和该国“自动改革”都开启；手动锁定某项国家政策本身不会关闭自动改革。自动重建会看战后低稳定和全国安全结余；自动教育要求和平、无缺粮、平均稳定至少65，并留出12金30粮启动费及另外两次年度拨款所需的6金。想完全自己决定，可在国内改革子页关闭该国自动改革。</p>
-<h2 id="rules-section-14">军备与核武器</h2>
-<p>普通补装、战时政策、升档后的武装共用每城每年最多6件普通武器的额度：</p>
-<table>
-<thead>
-<tr>
-<th>武器</th>
-<th>最低时代</th>
-<th>费用</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>制式手枪</td>
-<td>工坊</td>
-<td>3金属、1木</td>
-</tr>
-<tr>
-<td>制式步枪</td>
-<td>工业</td>
-<td>5金属、1木</td>
-</tr>
-<tr>
-<td>精确射手步枪</td>
-<td>现代</td>
-<td>7金属、1木</td>
-</tr>
-</tbody>
-</table>
-<p>补装只替换确实较差的装备，保护诅咒武器、同档或更高档武器及更高价值装备。旧武器先尝试进入城市仓库；仓库满时不换装、不收费。</p>
-<p>重武器有独立的每城每年2件额度，手动与年度自动补装共享：</p>
-<table>
-<thead>
-<tr>
-<th>武器</th>
-<th>科技与时代</th>
-<th>费用</th>
-<th>武器效果</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>榴弹发射器</td>
-<td>榴弹技术、工业</td>
-<td>10金属、3木</td>
-<td>伤害30、射程9；落点半径2内敌军额外12爆炸伤害</td>
-</tr>
-<tr>
-<td>野战炮</td>
-<td>野战火炮、现代</td>
-<td>18金属、6木</td>
-<td>伤害70、射程18；落点半径3内敌军额外22爆炸伤害</td>
-</tr>
-</tbody>
-</table>
-<p>重武器范围伤害只检查敌对国家活单位，不改地形。缴获的装备可以继续使用；能否制造或补发仍看本国科技和城市时代。</p>
-<p>核打击只接受玩家下令，AI不会自动发射。需要：核工程已完成、核武开关开启、存在实际交战、选择敌国目标城市、同一座现代出资城市拥有60黄金和40金属、国家20年冷却完成。界面要求先“预备”再“确认”。它调用原版原子弹，半径30格，会破坏地形并波及友军；下令后需要关闭窗口并恢复时间，炸弹才会继续落下。</p>
-<h2 id="rules-section-15">外交</h2>
-<p>每国外交路线有均衡、贸易、强硬、孤立四种，改换路线冷却5年。手动路线会锁定路线选择，但在“自主外交”开启时，国家仍可按照这条路线采取自主行动。</p>
-<h3 id="rules-section-16">条约</h3>
-<table>
-<thead>
-<tr>
-<th>项目</th>
-<th>规则</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>贸易协定</td>
-<td>先选进口国，再选出口国；有效10年，每年最多一次，进口方3黄金换6金属；双方仓库必须完整收货，否则整笔回滚且不收费</td>
-</tr>
-<tr>
-<td>互不侵犯</td>
-<td>有效10年；阻止原版自主发动战争阴谋选择伙伴，但玩家直接宣战和联盟参战仍可能开战</td>
-</tr>
-<tr>
-<td>伙伴槽</td>
-<td>每国最多3个伙伴槽；同一伙伴的贸易与互不侵犯共用一个槽</td>
-</tr>
-<tr>
-<td>主动取消</td>
-<td>同时移除双方之间的两类条约；治理开启时双方每座城市稳定−5，关系记忆双方−15，5年后才能重签</td>
-</tr>
-</tbody>
-</table>
-<p>双方实际交战会终止彼此条约。正常到期没有惩罚。手动签约不检查AI的路线接受分数，但仍要求国家有效、双方未交战、没有禁运阻挡、伙伴槽和冷却可用。</p>
-<h3 id="rules-section-17">禁运和援助</h3>
-<ul>
-<li>禁运持续5年，阻止双方的模组贸易成交和新贸易签约；每国最多同时占用2个目标席位。施加后关系记忆双方−12；对同一目标从施加日起10年后才能再次禁运。提前解除不会缩短这项重施冷却。</li>
-<li>援助由一座援助国城市实付5黄金、4金属。治理开启时，受援国优先让最低稳定、稳定≤50且能完整收货的城市得到同量资源并稳定+8；治理关闭时仍可转移资源，但不筛选或改变稳定。双方各进入5年援助冷却；交战、任一方向禁运、缺货或仓库装不下时不执行也不收费。</li>
-</ul>
-<p>自主外交每国每5年最多参与一次成功行动。它会根据稳定、战争、平均黄金、金属供需、原版态度、关系记忆和联盟判断贸易、互不侵犯、援助或禁运。关闭“自主外交”只停止新的自主行动，不取消现有条约；关闭“禁运与援助”会停止这些经济外交动作，并使已记录禁运暂时不再阻断贸易。</p>
-<h2 id="rules-section-18">国内事件</h2>
-<p>国家同时最多有一项待办，两个待办之间至少间隔8年。待办打开3年仍未解决时，受影响城市稳定−3；如果根本条件已经消失，待办会直接结束，不处罚。</p>
-<table>
-<thead>
-<tr>
-<th>待办</th>
-<th>触发</th>
-<th>玩家处理</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>粮食危机</td>
-<td>同一城市连续2个年度结算缺粮</td>
-<td>花6黄金，向该城实际加入最多30小麦，稳定+8；仓库没有实际收货则不收费</td>
-</tr>
-<tr>
-<td>战时预算争论</td>
-<td>连续2个年度处于战争且使用密集科研</td>
-<td>改为常规预算，全国稳定+3；或暂停科研，全国稳定+5</td>
-</tr>
-</tbody>
-</table>
-<p>治理政策保持自主时，AI会在待办开启后的下一年尝试处理。玩家锁定国家政策后，待办留给玩家决定。粮食供应恢复、城市易主、战争结束、科研关闭或预算不再密集，会让对应待办无处罚结束。</p>
-<p>重要外交、科研、工程、改革和国内事件会写入模组国家事件记录；支持的事件也会进入原版左上角历史和历史书。历史书需选择“全部”查看。</p>
-<h2 id="rules-section-19">原版生物与特质解锁</h2>
-<p>公开版保留原版生物发现、特质探索和成就解锁条件，不附带原版生物或特质的全解锁功能。本模组自己的候选者特质可用于启动可选飞升玩法；飞升阶段及部分战绩结果特质由规则产生，不放进手动添加列表。</p>
-<h2 id="rules-section-20">飞升候选者</h2>
-<p>给单位添加“飞升候选者”后，规则才会追踪其成长。默认开启“新候选者长期成长”：新加入的候选者使用8/30/80进度进入觉醒、传说、神话；普通有效目标须为士兵且等级不低于候选者4级，单次击杀进度最多6，击杀回复1%生命，晋升回复25%。国王、更强敌人、其他飞升者和悬赏目标可提供特殊战绩与进度。</p>
-<p>长期规则只在候选者首次加入时写入该单位。关闭开关或调整预设影响以后新加入的候选者；已有候选者保留自己的规则，不会因全局切换被改写。</p>
-<h2 id="rules-section-21">全局控制与高级设置</h2>
-<p>国家面板“总览 → 全局控制”集中10个常用开关，默认都开启：</p>
-<table>
-<thead>
-<tr>
-<th>开关</th>
-<th>关闭后的主要结果</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>国家科研</td>
-<td>停止研发和科技效果，保留进度；自然时代的科研门槛同时解除</td>
-</tr>
-<tr>
-<td>自动时代发展</td>
-<td>停止自然自动升档；上帝干预仍可用</td>
-</tr>
-<tr>
-<td>工厂生产</td>
-<td>停止工坊金属转换和工业/现代工厂年度产出</td>
-</tr>
-<tr>
-<td>国家施政</td>
-<td>暂停稳定、政策、国家计划和相关事件，保留数据</td>
-</tr>
-<tr>
-<td>国内事件</td>
-<td>停止新国内待办及其处理</td>
-</tr>
-<tr>
-<td>自主外交</td>
-<td>停止新的AI外交行动，保留现有条约和手动操作</td>
-</tr>
-<tr>
-<td>禁运与援助</td>
-<td>停止经济外交动作；已记录禁运暂不阻断贸易</td>
-</tr>
-<tr>
-<td>新候选者长期成长</td>
-<td>只影响以后新加入的飞升候选者</td>
-</tr>
-<tr>
-<td>手动核打击</td>
-<td>禁止新的核打击命令</td>
-</tr>
-<tr>
-<td>城市发展与分工</td>
-<td>暂停工程、设施、粮运、分工及教育改革资助/加成；教育6年期限仍继续，可能无法完成</td>
-</tr>
-</tbody>
-</table>
-<p>入口：国家面板「总览 → 全局控制 → 全部数值与高级设置」。逐国自动改革还要求这里的「国家自主选择政策」开启；关闭时改革页会说明原因。</p>
-<p>“全部数值与高级设置”还包括：自然制造的时代限制、三个时代人口门槛、时代升级科研门槛、国家自主政策、危机叛乱、飞升奖励和治疗参数等。</p>
-<h2 id="rules-section-22">为什么没有发生</h2>
+<h3 id="rules-section-7">常见问题</h3>
 <table>
 <thead>
 <tr>
@@ -728,142 +279,239 @@
 </thead>
 <tbody>
 <tr>
-<td>城市多年没有进工业</td>
-<td>人口45、城龄10、12金属、5黄金是否同时满足；国家是否完成精密工具；自动时代发展是否开启。约50年才出现工业城市可以正常</td>
-</tr>
-<tr>
-<td>城市没有进现代</td>
-<td>人口80、城龄20、25金属、12黄金、电气化、自动时代发展</td>
-</tr>
-<tr>
-<td>工坊没有产金属</td>
-<td>工厂生产开关；是否已经跨过首次登记年度；木材是否至少5；金属仓库是否能实际收货；稳定是否≤25</td>
-</tr>
-<tr>
-<td>工业/现代工厂没有产出</td>
-<td>城市是否真的有工厂；是否同年已经结算；稳定是否≤25；工厂生产开关；仓库是否已满</td>
+<td>城市没有升级</td>
+<td>人口、城龄、金属、黄金、前置科技与自动时代发展开关</td>
 </tr>
 <tr>
 <td>科研没有增长</td>
-<td>预算是否暂停；当前项目最低时代；城市是否缺粮或稳定≤25；是否能在支付后保留3金2金属；国家计划是否降低出资城上限；是否同年已出资</td>
+<td>预算、项目时代、食物、稳定、3金/2金属安全余量与年度出资上限</td>
 </tr>
 <tr>
-<td>学府没有免费点</td>
-<td>必须是现代城市、无线电有效、城市不缺粮、稳定正常，并且本城真的参与本次出资</td>
+<td>工坊或工厂没有生产</td>
+<td>年度是否结算、木材、仓库空间、稳定与工厂生产开关</td>
 </tr>
 <tr>
-<td>学术分工没有额外点</td>
-<td>需要工业以上、科研开启、本城有效出资、项目仍有剩余点，并有额外1黄金可付；教育的第二份加成还要求教育改革已经成功完成</td>
+<td>工程没有推进</td>
+<td>食物、稳定、科研开关、时代与科技前置</td>
 </tr>
 <tr>
-<td>工程不推进</td>
-<td>缺粮、治理开启且稳定≤25、科研关闭、科技/时代前置失效，或同一年度已经处理；工期按有效年度，不按现实时间</td>
+<td>自动分工没有变化</td>
+<td>至少15黄金、10年冷却完成，并保持自动模式</td>
 </tr>
 <tr>
-<td>医院/学府没有地图外观</td>
-<td>先确认设施是否已经竣工；医院需要本城原生神庙载体，学府需要原生图书馆。没有载体时仍作为抽象服务生效，不要求空地</td>
-</tr>
-<tr>
-<td>国内粮运没有发生</td>
-<td>物流网络、科研和城市公共工程是否开启；目标是否按规则缺粮；供方是否有6金并能保留5金及安全粮；目标仓库是否能收货</td>
-</tr>
-<tr>
-<td>自动分工不改</td>
-<td>城市须至少15金、10年改换冷却完成且仍为自动模式；没有满足农业/学术/工业条件时会保持均衡</td>
-</tr>
-<tr>
-<td>国家重建不能启动</td>
-<td>当前必须和平；符合条件的战争在3年内结束且经历至少2次年度结算；有城市稳定&lt;60；10年计划冷却完成；全国安全结余够10金20粮</td>
-</tr>
-<tr>
-<td>教育改革没有完成</td>
-<td>需要在6年期限内得到4个和平年度的3金拨款；战争、关闭科研/城市发展或安全结余不足都会漏掉年度，截止年不会顺延</td>
-</tr>
-<tr>
-<td>补装显示0件</td>
-<td>本年普通6件或重武器2件额度已用完；缺金属/木材；时代或科技不足；没有可升级单位；旧武器无法安全入库</td>
-</tr>
-<tr>
-<td>核打击按钮不可用</td>
-<td>核武开关、核工程、实际战争、敌国目标、20年冷却，以及同一座现代城市的60金40金属</td>
-</tr>
-<tr>
-<td>贸易没有成交</td>
-<td>是否已到结束年、当年已成交、被禁运、交战、买方不足3金、卖方不足6金属，或任一仓库不能完整收货</td>
-</tr>
-<tr>
-<td>国内事件没出现</td>
-<td>条件须连续2个年度结算；全国同时只能有1项待办，且新待办有8年开启间隔；治理和国内事件都须开启</td>
+<td>补装为0件</td>
+<td>年度配额、库存、时代、科技、可升级单位与旧装备入库空间</td>
 </tr>
 </tbody>
 </table>
-<p>国家计划使用固定世界历年期限：关闭系统不会延后截止年，重开后若已过期，会按已完成的实际资助结算；公共工程则按有效建设年度推进。未观察到的多年间隔不会被当作刚刚停战。</p>
-<p>年度系统普遍使用“已处理最高年份”保护。时间倒退、同年易主或重复打开面板不会重复收费或刷收益；跳过多年通常只按当前状态处理一次。第一次接入旧存档时，多数年度系统只建立检查点，不会追缴过去费用或一次补发多年收益。</p>
-<h2 id="rules-section-23">验证与反馈</h2>
-<p>开发验收包括实际游戏中的年度费用、按钮回调、建筑地图显示、城市征服、保存重载和自然长局。自然测试覆盖具体世界与时段，不能保证所有地图、分辨率和第三方模组组合都没有问题。</p>
-<p>遇到问题时，先对照上面的未触发排查表；反馈请附游戏/NML/模组版本、其他启用模组、触发前后的操作、相关日志与可复现存档副本。不要公开自己的私人文件路径。安装与日志位置见随包 INSTALL.md。</p>
-</section>
-<section id="future"><p class="section-label">2.0 前瞻</p><h1 id="future-world-ascension-2.0">World Ascension 2.0 方向设想</h1>
-<p>本文全部内容都是2.0阶段的设计设想，不是已经完成的功能，也不是发布承诺。没有确定日期；实际范围会根据1.0玩家反馈、性能和兼容性结果调整。</p>
-<h2 id="future-section">方向一：深化产业与城市发展</h2>
-<p>目标是让城市为何富裕、缺粮或停滞更容易理解，并让不同城市在国家经济中承担更清楚的职责。</p>
-<p>可能探索：</p>
-<ul>
-<li>在现有工坊、工厂、粮仓、医院、学府和物流之上形成更完整的生产与消耗链。</li>
-<li>让农业、工业、学术分工产生更明显但可承担的取舍，而不是简单增加免费资源。</li>
-<li>改进城市状态说明，让玩家能直接看到原料、库存、科研、稳定或运输中的具体瓶颈。</li>
-<li>继续复用原版城市、建筑和居民系统，避免增加难以维护的平行人口模型。</li>
-</ul>
-<p>优先评估的具体候选：</p>
+<h2 id="rules-english-guide">English Guide</h2>
+<h3 id="rules-quick-start">Quick start</h3>
+<ol>
+<li>Open <strong>World Ascension → Overview → National Panel</strong>, then select a city.</li>
+<li>For a first game, keep automatic era progression, research, governance, diplomacy, and city development enabled. Use Automatic + Standard research.</li>
+<li>Close the panel and resume time. Production, research, governance, construction, and diplomacy mostly settle once per game year.</li>
+<li>Check why a city is stalled before changing research, policy, city role, or construction.</li>
+</ol>
+<p>It is normal for industrial cities to take decades to appear. Natural progression depends on population, city age, stock, and technology rather than a fixed timer. Advance City Era and Modernize Kingdom bypass those natural requirements.</p>
+<h3 id="rules-national-panel">National Panel</h3>
 <table>
 <thead>
 <tr>
-<th>候选内容</th>
-<th>玩家能理解的用途</th>
-<th>必须保留的代价</th>
+<th>Page</th>
+<th>Purpose</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>冷链仓储</td>
-<td>把电气化与物流连接起来，改善已有粮仓容量和调粮能力</td>
-<td>维护支出，不能凭空制造全国粮食</td>
+<td>Overview</td>
+<td>Population, stock, war, stability, food shortages, technologies, public works, and city-specific blockers</td>
 </tr>
 <tr>
-<td>精密制造</td>
-<td>让自动化进一步服务工厂和军备生产</td>
-<td>原料、黄金与发展/军备之间的取舍</td>
+<td>Research</td>
+<td>Research branch, budget, current project, and the 11-technology tree</td>
 </tr>
 <tr>
-<td>城市基础设施</td>
-<td>让成熟农业城、工业城和学术城有少量不同的升级方向</td>
-<td>占用现有建设槽位，避免再开一套建筑菜单</td>
+<td>Policy</td>
+<td>National policy, construction, city roles, and domestic reform</td>
+</tr>
+<tr>
+<td>Military</td>
+<td>Issue weapons from city stock or prepare a late-game nuclear strike</td>
+</tr>
+<tr>
+<td>Diplomacy</td>
+<td>Foreign-policy route, trade, non-aggression, embargoes, and aid</td>
+</tr>
+<tr>
+<td>Events</td>
+<td>Resolve domestic issues and read national and world diplomatic records</td>
 </tr>
 </tbody>
 </table>
-<p>这一方向不会自动等同于加入坦克、飞机或完整现代产业目录。新增内容必须服务长期城市发展，而不是只扩大物品清单。</p>
-<h2 id="future-section-1">方向二：少量深化国内改革</h2>
-<p>目标是在国家重建和教育改革的基础上增加少量、有明确代价和长期结果的国家选择。</p>
-<p>可能探索：</p>
+<h3 id="rules-eras-and-production">Eras and production</h3>
+<table>
+<thead>
+<tr>
+<th>Target era</th>
+<th style="text-align: right;">Default population</th>
+<th style="text-align: right;">City age</th>
+<th>Stock and technology</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Workshop</td>
+<td style="text-align: right;">20</td>
+<td style="text-align: right;">3 years</td>
+<td>3 metal</td>
+</tr>
+<tr>
+<td>Industrial</td>
+<td style="text-align: right;">45</td>
+<td style="text-align: right;">10 years</td>
+<td>12 metal, 5 gold, Precision Tools</td>
+</tr>
+<tr>
+<td>Modern</td>
+<td style="text-align: right;">80</td>
+<td style="text-align: right;">20 years</td>
+<td>25 metal, 12 gold, Electrification</td>
+</tr>
+</tbody>
+</table>
+<p>A real era advancement grants starter stock once: Workshop 8 metal/4 wood/3 gold, Industrial 16 metal/8 wood/6 gold, and Modern 24 metal/12 wood/9 gold. Repeated intervention does not grant it again.</p>
+<p>Base yearly production:</p>
 <ul>
-<li>让改革与战争恢复、城市差距、研究投入和公共服务形成更清楚的因果关系。</li>
-<li>为改革增加可读的阶段、失败原因和结果记录，同时保留真实库存费用。</li>
-<li>控制同时存在的改革数量，避免把国家面板变成大量重复按钮。</li>
+<li>Workshop: converts 2 wood into up to 2 metal while reserving 3 wood.</li>
+<li>Industrial factory: 2 metal and 1 gold.</li>
+<li>Modern factory: 4 metal and 2 gold.</li>
+<li>Precision Tools, Electrification, and Automation improve factory output. Factories stop at stability 25 or lower, and autonomy reduces output.</li>
 </ul>
-<p>可先从“公共卫生改革”和“地方建设投入”中选择一项原型：前者连接医院、医疗研究与持续财政负担；后者决定优先照顾落后城市还是集中发展中心城市。不会两项都默认承诺加入，必须先证明它们比现有按钮多出真正不同的选择。</p>
-<p>2.0不会扩张英雄国家角色，也不会建立庞大的党派、议会或阶级人口系统。国内改革应保持少而有分量。</p>
-<h2 id="future-section-2">方向三：体验、美术与兼容性</h2>
-<p>目标是让新玩家更快理解，让长期世界更稳定，也让新增设施更自然地融入原版画面。</p>
-<p>可能探索：</p>
+<h3 id="rules-national-research">National research</h3>
+<p>Technology belongs to the country, while eligible cities fund it yearly. Standard funding costs 2 gold and 1 metal for 2 points per city. Intensive funding costs 4 gold and 2 metal for 4 points and −1 local stability. A city must retain 3 gold and 2 metal after payment. Normally, up to three cities may contribute each year.</p>
+<table>
+<thead>
+<tr>
+<th>Branch</th>
+<th>Technology path</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Industry</td>
+<td>Precision Tools → Electrification → Logistics Network → Automation</td>
+</tr>
+<tr>
+<td>Civil</td>
+<td>Agronomy → Basic Medicine → Public Health → Radio Administration</td>
+</tr>
+<tr>
+<td>Military</td>
+<td>Grenade Technology → Field Artillery → Atomic Engineering</td>
+</tr>
+</tbody>
+</table>
+<p>An academy adds 1 free point to eligible funding. An academic city role may buy 1 point for 1 gold, and completed education reform allows one more purchase. Only points actually used are charged.</p>
+<h3 id="rules-policy-city-roles-and-construction">Policy, city roles, and construction</h3>
+<p>National policies are Balanced, Welfare, Industry, and Wartime. Policy changes have a 5-year cooldown. City relief costs 5 gold for +15 stability; autonomy costs 8 gold in a non-capital and lasts 10 years.</p>
+<p>City roles are Balanced, Agriculture, Industry, and Academic. A real role change costs 5 gold, must leave 5 gold, and has a 10-year cooldown. Agriculture converts wood to wheat, Industry shifts part of factory output from gold to metal, and Academic improves research.</p>
+<p>Each country may construct one public project at a time:</p>
+<table>
+<thead>
+<tr>
+<th>Project</th>
+<th>Cost</th>
+<th style="text-align: right;">Active years</th>
+<th>Effect</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Public Granary</td>
+<td>12 gold, 6 wood</td>
+<td style="text-align: right;">2</td>
+<td>Stores up to 60 food and releases it during shortages</td>
+</tr>
+<tr>
+<td>Municipal Hospital</td>
+<td>20 gold, 8 metal</td>
+<td style="text-align: right;">3</td>
+<td>Pays yearly to heal injured residents</td>
+</tr>
+<tr>
+<td>City Academy</td>
+<td>24 gold, 12 wood</td>
+<td style="text-align: right;">4</td>
+<td>Adds a free point to eligible research funding</td>
+</tr>
+</tbody>
+</table>
+<p>Food shortages, missing prerequisites, or low stability pause construction without adding cost. Hospitals prefer to convert a local temple, and academies prefer a local library. The city service still works when no suitable building is available.</p>
+<h3 id="rules-reform-military-and-diplomacy">Reform, military, and diplomacy</h3>
 <ul>
-<li>改进国家面板的信息层次、原因提示、历史记录和新手引导。</li>
-<li>为重要建筑状态、城市分工和国家计划增加克制、统一的视觉反馈。</li>
-<li>扩大原生种族与建筑变体覆盖，优先安全复用原版外观和占地。</li>
-<li>持续检查保存重载、城市征服、长局性能以及未来WorldBox与NeoModLoader版本变化。</li>
+<li>National reconstruction starts in peace, lasts 5 years, and aids low-stability cities. A new war ends it.</li>
+<li>Education reform starts in peace and needs funding in 4 of 6 years. Completion improves research in academic cities.</li>
+<li>Regular weapons cost: pistol 3 metal/1 wood, rifle 5 metal/1 wood, marksman rifle 7 metal/1 wood.</li>
+<li>Heavy weapons cost: grenade launcher 10 metal/3 wood, field artillery 18 metal/6 wood.</li>
+<li>A nuclear strike requires Atomic Engineering, an active war, 60 gold and 40 metal in one modern funding city, and a 20-year national cooldown. The panel requires arming and confirmation. The blast destroys terrain and can hit allies.</li>
+<li>A trade pact lasts 10 years and exchanges 3 importer gold for 6 exporter metal each year. A non-aggression pact lasts 10 years.</li>
+<li>An embargo lasts 5 years. Aid transfers 5 gold and 4 metal and may increase recipient stability.</li>
 </ul>
-<p>美术验收会固定检查“已经建满的城市能否原位替换”“与相邻原版建筑的实际大小”“不同缩放和保存重载后的显示”。新建筑图标做得漂亮，不能代替这些地图检查。</p>
-<p>外交会优先改善现有贸易、互不侵犯、禁运和援助的反馈与可靠性，不以堆叠更多外交按钮作为主要方向。</p>
-<h2 id="future-section-3">决定是否进入2.0的标准</h2>
-<p>下一阶段先收集1.0反馈，优先修复问题，再以一个产业或改革原型验证是否值得扩展。根据玩家是否能理解现有系统、长局是否稳定、哪些选择真正有趣，决定2.0具体内容。任何设想都可能缩减、调整或取消。</p>
+<h3 id="rules-troubleshooting">Troubleshooting</h3>
+<table>
+<thead>
+<tr>
+<th>Symptom</th>
+<th>Check first</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>City does not advance</td>
+<td>Population, city age, metal, gold, prerequisite technology, and automatic progression</td>
+</tr>
+<tr>
+<td>Research does not grow</td>
+<td>Budget, project era, food, stability, the 3-gold/2-metal reserve, and yearly contributor cap</td>
+</tr>
+<tr>
+<td>Workshop or factory does not produce</td>
+<td>Yearly settlement, wood, storage capacity, stability, and factory-production setting</td>
+</tr>
+<tr>
+<td>Construction does not progress</td>
+<td>Food, stability, research setting, era, and technology prerequisites</td>
+</tr>
+<tr>
+<td>Automatic role does not change</td>
+<td>At least 15 gold, completed 10-year cooldown, and automatic mode</td>
+</tr>
+<tr>
+<td>Equipment issue returns 0</td>
+<td>Yearly quota, stock, era, technology, eligible units, and room to store old equipment</td>
+</tr>
+</tbody>
+</table>
+<p>For bug reports, include the WorldBox version, NeoModLoader version, World Ascension version, other enabled mods, reproduction steps, and the relevant part of <code>Logs/WorldAscension/worldascension.log</code>.</p>
 </section>
-<footer>World Ascension · 非官方社区模组。规则以对应版本与游戏内实际配置为准；2.0 部分均为未来设想。</footer></main></body></html>
+<section id="future"><p class="section-label">路线图 / Roadmap</p><h1 id="future-world-ascension-roadmap">World Ascension 路线图 / Roadmap</h1>
+<p>以下是未来可能探索的方向，不代表发布日期或功能承诺。</p>
+<p>These are possible future directions, not release dates or feature commitments.</p>
+<h2 id="future-section">中文</h2>
+<ul>
+<li>让农业、工业和学术城市的差异更清楚，并保持真实资源投入与取舍。</li>
+<li>改善国家面板、事件说明和长期世界中的性能表现。</li>
+<li>在现有重建与教育改革之上增加少量有明确成本的国家选择。</li>
+<li>继续改善建筑、图标与不同文明外观的一致性。</li>
+<li>优先修复兼容性和存档问题，再决定新系统范围。</li>
+</ul>
+<h2 id="future-english">English</h2>
+<ul>
+<li>Make Agriculture, Industry, and Academic cities more distinct while retaining real resource costs and tradeoffs.</li>
+<li>Improve the National Panel, event explanations, and performance in long-running worlds.</li>
+<li>Add a small number of meaningful national choices on top of reconstruction and education reform.</li>
+<li>Improve visual consistency across buildings, icons, and civilization variants.</li>
+<li>Prioritize compatibility and save issues before expanding the feature set.</li>
+</ul>
+</section>
+<footer>World Ascension · 非官方社区模组 / Unofficial community mod. Game behavior follows the installed version and active settings.</footer></main></body></html>
