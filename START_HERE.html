@@ -8,7 +8,7 @@
 @media print{aside{display:none}main{margin:0;max-width:none;padding:0}body{background:white;font-size:11pt}h1{font-size:22pt}h2{break-after:avoid}tr{break-inside:avoid}a{color:inherit}section{padding-bottom:18px}footer{display:none}}
 </style></head><body>
 <aside><div class="eyebrow">WORLDBOX COMMUNITY MOD</div><div class="brand">WORLD<br>ASCENSION</div><p>从工坊到现代。<br>From workshops to the modern era.</p><nav><a href="#start">01 · 介绍 / Intro</a><a href="#install">02 · 安装 / Install</a><a href="#rules">03 · 指南 / Guide</a><a href="#future">04 · 路线图 / Roadmap</a></nav><p class="hint">离线可读 / Works offline.<br>用 Ctrl+F 搜索关键词 / Search with Ctrl+F.</p></aside>
-<main><section id="start"><p class="section-label">介绍 / Introduction</p><h1 id="start-world-ascension-1.0">World Ascension 1.0</h1>
+<main><section id="start"><p class="section-label">介绍 / Introduction</p><h1 id="start-world-ascension-1.1">World Ascension 1.1</h1>
 <p>中文 | <a href="#start-english">English</a></p>
 <p>World Ascension 为 WorldBox 增加一条缓慢、可观察的文明发展路线。城市会从中世纪逐步进入工坊、工业与现代阶段，国家会研究科技、建设公共设施、选择政策、处理危机，并在战争与发展之间分配真实库存。</p>
 <p>游戏界面支持简体中文与 English，并跟随 WorldBox 的语言设置。详细机制见 <a href="PLAYER_GUIDE.md">PLAYER_GUIDE.md</a>，安装步骤见 <a href="INSTALL.md">INSTALL.md</a>。</p>
@@ -28,6 +28,7 @@
 <li>公共粮仓、市立医院、城市学府与同国内部粮运。</li>
 <li>国家政策、稳定、国内事件、战后重建和教育改革。</li>
 <li>贸易、互不侵犯、禁运、援助、现代军备与后期核工程。</li>
+<li>默认年度动员、可批量使用的军械援助，以及叛乱/征服后的城市多数科技继承。</li>
 <li>可选的飞升候选者成长玩法。</li>
 </ul>
 <h2 id="start-section-2">五分钟上手</h2>
@@ -58,6 +59,7 @@
 <li>Public granaries, municipal hospitals, city academies, and domestic food logistics.</li>
 <li>National policy, stability, domestic events, postwar reconstruction, and education reform.</li>
 <li>Trade, non-aggression, embargoes, aid, modern armaments, and late-game atomic engineering.</li>
+<li>Default yearly mobilization, brush-based armament aid, and majority city-knowledge inheritance after rebellion or conquest.</li>
 <li>Optional Ascension Candidate progression.</li>
 </ul>
 <h3 id="start-five-minute-start">Five-minute start</h3>
@@ -84,7 +86,7 @@
 </ol>
 <p>不要把整个ZIP直接放进 <code>Mods</code>，也不要同时启用手动安装和 Steam Workshop 订阅的两个副本。</p>
 <h3 id="install-section-2">语言</h3>
-<p>模组跟随 WorldBox 的语言设置。中文语言使用简体中文界面，English 使用英文界面。切换语言后重新打开模组窗口；没有立即刷新时请重启游戏。</p>
+<p>模组跟随 WorldBox 的语言设置。中文语言使用简体中文界面，English 使用英文界面。切换语言后，已打开的国家面板和说明窗口会自动刷新，无需重开窗口或重启游戏。</p>
 <h3 id="install-section-3">更新与移除</h3>
 <ul>
 <li>更新前关闭游戏，并备份重要世界。</li>
@@ -105,7 +107,7 @@
 </ol>
 <p>Do not place the ZIP itself in <code>Mods</code>, and do not enable both a manual copy and a Steam Workshop subscription at the same time.</p>
 <h3 id="install-language">Language</h3>
-<p>The mod follows the WorldBox language setting. Chinese uses the Simplified Chinese interface, and English uses the English interface. Reopen the mod window after switching languages; restart the game if it does not refresh immediately.</p>
+<p>The mod follows the WorldBox language setting. Chinese uses the Simplified Chinese interface, and English uses the English interface. Open National Panel and guide windows refresh automatically after a language switch; reopening the window or restarting the game is unnecessary.</p>
 <h3 id="install-update-or-remove">Update or remove</h3>
 <ul>
 <li>Close the game and back up important worlds before updating.</li>
@@ -115,9 +117,9 @@
 </ul>
 <p>When reporting a problem, include the WorldBox, NML, and World Ascension versions, other enabled mods, reproduction steps, and the relevant log lines.</p>
 </section>
-<section id="rules"><p class="section-label">玩家指南 / Player Guide</p><h1 id="rules-world-ascension-1.0-player-guide">World Ascension 1.0 玩家指南 / Player Guide</h1>
-<p>World Ascension 会跟随 WorldBox 的游戏语言显示简体中文或 English。切换游戏语言后重新打开模组窗口；若界面没有立即刷新，请重启游戏。</p>
-<p>World Ascension follows the WorldBox language setting and displays Simplified Chinese or English. Reopen the mod window after changing language; restart the game if the interface does not refresh immediately.</p>
+<section id="rules"><p class="section-label">玩家指南 / Player Guide</p><h1 id="rules-world-ascension-1.1-player-guide">World Ascension 1.1 玩家指南 / Player Guide</h1>
+<p>World Ascension 会跟随 WorldBox 的游戏语言显示简体中文或 English。切换游戏语言后，已打开的国家面板和说明窗口会自动刷新，无需重开窗口或重启游戏。</p>
+<p>World Ascension follows the WorldBox language setting and displays Simplified Chinese or English. Open National Panel and guide windows refresh automatically after a language switch; reopening the window or restarting the game is unnecessary.</p>
 <h2 id="rules-section">中文指南</h2>
 <h3 id="rules-section-1">快速开始</h3>
 <ol>
@@ -175,21 +177,21 @@
 <tbody>
 <tr>
 <td>工坊</td>
-<td style="text-align: right;">20</td>
-<td style="text-align: right;">3年</td>
-<td>3金属</td>
+<td style="text-align: right;">12</td>
+<td style="text-align: right;">2年</td>
+<td>2金属</td>
 </tr>
 <tr>
 <td>工业</td>
-<td style="text-align: right;">45</td>
-<td style="text-align: right;">10年</td>
-<td>12金属、5黄金、精密工具</td>
+<td style="text-align: right;">26</td>
+<td style="text-align: right;">5年</td>
+<td>8金属、3黄金、精密工具</td>
 </tr>
 <tr>
 <td>现代</td>
-<td style="text-align: right;">80</td>
-<td style="text-align: right;">20年</td>
-<td>25金属、12黄金、电气化</td>
+<td style="text-align: right;">45</td>
+<td style="text-align: right;">10年</td>
+<td>16金属、6黄金、电气化</td>
 </tr>
 </tbody>
 </table>
@@ -202,7 +204,7 @@
 <li>精密工具、电气化与自动化会继续提高工厂产出；稳定不高于25时工厂停产，自治会降低产出。</li>
 </ul>
 <h3 id="rules-section-4">国家科研</h3>
-<p>科技属于国家，由符合条件的城市逐年出资。常规预算每城支付2黄金和1金属获得2点；密集预算支付4黄金和2金属获得4点并使本城稳定−1。出资后至少保留3黄金和2金属。平时每国每年最多3座城市出资。</p>
+<p>科技由国家使用、由符合条件的城市逐年出资。科技完成时会给当前城市留下知识；叛乱或征服后，新国家只有在过半现有城市掌握该科技且前置完整时才会采纳。常规预算每城支付2黄金和1金属获得2点；密集预算支付4黄金和2金属获得4点并使本城稳定−1。出资后至少保留3黄金和2金属。平时每国每年最多3座城市出资。</p>
 <table>
 <thead>
 <tr>
@@ -213,15 +215,15 @@
 <tbody>
 <tr>
 <td>工业</td>
-<td>精密工具 → 电气化 → 物流网络 → 自动化生产</td>
+<td>精密工具 8 → 电气化 16 → 物流网络 20 → 自动化生产 28</td>
 </tr>
 <tr>
 <td>民生</td>
-<td>农学改良 → 基础医学 → 公共卫生 → 无线电行政</td>
+<td>农学改良 8 → 基础医学 16 → 公共卫生 20 → 无线电行政 24</td>
 </tr>
 <tr>
 <td>军事</td>
-<td>榴弹技术 → 野战火炮 → 核工程</td>
+<td>榴弹技术 12 → 野战火炮 24 → 核工程 60</td>
 </tr>
 </tbody>
 </table>
@@ -265,11 +267,12 @@
 <ul>
 <li>国家重建：和平时启动，持续5年，逐年帮助低稳定城市；重新开战会结束计划。</li>
 <li>教育改革：和平时启动，6年内需要4个获资年度；成功后增强学术城市科研。</li>
-<li>普通枪械费用：手枪3金属/1木，步枪5金属/1木，精确步枪7金属/1木。</li>
-<li>重武器费用：榴弹发射器10金属/3木，野战炮18金属/6木。</li>
+<li>普通枪械费用：手枪3金属/1木，步枪5金属/1木，精确步枪7金属/1木。年度动员默认开启，并与升档、手动补装及战时经济共用每城每年12件额度。</li>
+<li>重武器费用：榴弹发射器10金属/3木，野战炮18金属/6木；独立配额为每城每年3件，自动采购仍只在实际战争中运行。</li>
 <li>核打击需要核工程、实际战争、现代出资城市的60黄金与40金属，并有20年国家冷却。界面要求先预备再确认；爆炸会破坏地形并波及友军。</li>
 <li>贸易协定持续10年，进口方每年用3黄金交换6金属；互不侵犯协定持续10年。</li>
 <li>禁运持续5年；援助转移5黄金与4金属，并可提高受援城市稳定。</li>
+<li>自主贸易要求买方候选城市至少4黄金、卖方候选城市至少10金属。世界外交纪事保留100条，同一类别最多25条。</li>
 </ul>
 <h3 id="rules-section-7">常见问题</h3>
 <table>
@@ -363,21 +366,21 @@
 <tbody>
 <tr>
 <td>Workshop</td>
-<td style="text-align: right;">20</td>
-<td style="text-align: right;">3 years</td>
-<td>3 metal</td>
+<td style="text-align: right;">12</td>
+<td style="text-align: right;">2 years</td>
+<td>2 metal</td>
 </tr>
 <tr>
 <td>Industrial</td>
-<td style="text-align: right;">45</td>
-<td style="text-align: right;">10 years</td>
-<td>12 metal, 5 gold, Precision Tools</td>
+<td style="text-align: right;">26</td>
+<td style="text-align: right;">5 years</td>
+<td>8 metal, 3 gold, Precision Tools</td>
 </tr>
 <tr>
 <td>Modern</td>
-<td style="text-align: right;">80</td>
-<td style="text-align: right;">20 years</td>
-<td>25 metal, 12 gold, Electrification</td>
+<td style="text-align: right;">45</td>
+<td style="text-align: right;">10 years</td>
+<td>16 metal, 6 gold, Electrification</td>
 </tr>
 </tbody>
 </table>
@@ -390,7 +393,7 @@
 <li>Precision Tools, Electrification, and Automation improve factory output. Factories stop at stability 25 or lower, and autonomy reduces output.</li>
 </ul>
 <h3 id="rules-national-research">National research</h3>
-<p>Technology belongs to the country, while eligible cities fund it yearly. Standard funding costs 2 gold and 1 metal for 2 points per city. Intensive funding costs 4 gold and 2 metal for 4 points and −1 local stability. A city must retain 3 gold and 2 metal after payment. Normally, up to three cities may contribute each year.</p>
+<p>Countries use technologies while eligible cities fund them yearly. Completion leaves knowledge in the country's current cities. After rebellion or conquest, a new country adopts a technology only when a majority of its current cities know it and all prerequisites are complete. Standard funding costs 2 gold and 1 metal for 2 points per city. Intensive funding costs 4 gold and 2 metal for 4 points and −1 local stability. A city must retain 3 gold and 2 metal after payment. Normally, up to three cities may contribute each year.</p>
 <table>
 <thead>
 <tr>
@@ -401,15 +404,15 @@
 <tbody>
 <tr>
 <td>Industry</td>
-<td>Precision Tools → Electrification → Logistics Network → Automation</td>
+<td>Precision Tools 8 → Electrification 16 → Logistics Network 20 → Automation 28</td>
 </tr>
 <tr>
 <td>Civil</td>
-<td>Agronomy → Basic Medicine → Public Health → Radio Administration</td>
+<td>Agronomy 8 → Basic Medicine 16 → Public Health 20 → Radio Administration 24</td>
 </tr>
 <tr>
 <td>Military</td>
-<td>Grenade Technology → Field Artillery → Atomic Engineering</td>
+<td>Grenade Technology 12 → Field Artillery 24 → Atomic Engineering 60</td>
 </tr>
 </tbody>
 </table>
@@ -453,11 +456,12 @@
 <ul>
 <li>National reconstruction starts in peace, lasts 5 years, and aids low-stability cities. A new war ends it.</li>
 <li>Education reform starts in peace and needs funding in 4 of 6 years. Completion improves research in academic cities.</li>
-<li>Regular weapons cost: pistol 3 metal/1 wood, rifle 5 metal/1 wood, marksman rifle 7 metal/1 wood.</li>
-<li>Heavy weapons cost: grenade launcher 10 metal/3 wood, field artillery 18 metal/6 wood.</li>
+<li>Regular weapons cost: pistol 3 metal/1 wood, rifle 5 metal/1 wood, marksman rifle 7 metal/1 wood. Yearly mobilization is enabled by default and shares the 12-per-city yearly limit with era advancement, manual issue, and War Economy.</li>
+<li>Heavy weapons cost: grenade launcher 10 metal/3 wood, field artillery 18 metal/6 wood. Their separate limit is 3 per city per year, and automatic purchase still requires an active war.</li>
 <li>A nuclear strike requires Atomic Engineering, an active war, 60 gold and 40 metal in one modern funding city, and a 20-year national cooldown. The panel requires arming and confirmation. The blast destroys terrain and can hit allies.</li>
 <li>A trade pact lasts 10 years and exchanges 3 importer gold for 6 exporter metal each year. A non-aggression pact lasts 10 years.</li>
 <li>An embargo lasts 5 years. Aid transfers 5 gold and 4 metal and may increase recipient stability.</li>
+<li>Autonomous trade requires a buyer candidate city with at least 4 gold and a seller candidate city with at least 10 metal. The world chronicle keeps 100 entries, with at most 25 from one category.</li>
 </ul>
 <h3 id="rules-troubleshooting">Troubleshooting</h3>
 <table>
