@@ -78,7 +78,8 @@ World Ascension follows the WorldBox language setting and displays Simplified Ch
 - 普通枪械费用：手枪3金属/1木，步枪5金属/1木，精确步枪7金属/1木。年度动员默认开启，并与升档、手动补装及战时经济共用每城每年12件额度。
 - 重武器费用：榴弹发射器10金属/3木，野战炮18金属/6木；独立配额为每城每年3件，自动采购仍只在实际战争中运行。
 - 核打击需要核工程、实际战争、现代出资城市的60黄金与40金属，并有20年国家冷却。界面要求先预备再确认；爆炸会破坏地形并波及友军。
-- 贸易协定持续10年，进口方每年用3黄金交换6金属；互不侵犯协定持续10年。
+- 贸易协定持续10年，进口方每年用3黄金交换6金属；互不侵犯协定持续10年，正常到期后同一对国家需等待10年才能续签。
+- “多城联合起义”会立即成功：最多六座参与城市共同组成一个叛军国家，并立即与原国家进入叛乱战争。
 - 禁运持续5年；援助转移5黄金与4金属，并可提高受援城市稳定。
 - 自主贸易要求买方候选城市至少4黄金、卖方候选城市至少10金属。世界外交纪事保留100条，同一类别最多25条。
 
@@ -167,7 +168,8 @@ Food shortages, missing prerequisites, or low stability pause construction witho
 - Regular weapons cost: pistol 3 metal/1 wood, rifle 5 metal/1 wood, marksman rifle 7 metal/1 wood. Yearly mobilization is enabled by default and shares the 12-per-city yearly limit with era advancement, manual issue, and War Economy.
 - Heavy weapons cost: grenade launcher 10 metal/3 wood, field artillery 18 metal/6 wood. Their separate limit is 3 per city per year, and automatic purchase still requires an active war.
 - A nuclear strike requires Atomic Engineering, an active war, 60 gold and 40 metal in one modern funding city, and a 20-year national cooldown. The panel requires arming and confirmation. The blast destroys terrain and can hit allies.
-- A trade pact lasts 10 years and exchanges 3 importer gold for 6 exporter metal each year. A non-aggression pact lasts 10 years.
+- A trade pact lasts 10 years and exchanges 3 importer gold for 6 exporter metal each year. A non-aggression pact lasts 10 years; after normal expiry, the same pair must wait 10 years before renewing it.
+- Multi-City Uprising succeeds immediately: up to six participating cities form one rebel kingdom and enter a rebellion war against their former kingdom.
 - An embargo lasts 5 years. Aid transfers 5 gold and 4 metal and may increase recipient stability.
 - Autonomous trade requires a buyer candidate city with at least 4 gold and a seller candidate city with at least 10 metal. The world chronicle keeps 100 entries, with at most 25 from one category.
 
