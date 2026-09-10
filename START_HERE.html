@@ -11,16 +11,23 @@
 <main><section id="start"><p class="section-label">介绍 / Introduction</p><h1 id="start-world-ascension-1.1">World Ascension 1.1</h1>
 <p>中文 | <a href="#start-english">English</a></p>
 <p>World Ascension 为 WorldBox 增加一条缓慢、可观察的文明发展路线。城市会从中世纪逐步进入工坊、工业与现代阶段，国家会研究科技、建设公共设施、选择政策、处理危机，并在战争与发展之间分配真实库存。</p>
+<h2 id="start-section">1.1.1 修复</h2>
+<ul>
+<li>自动城市建设失败不再无故弹出提示。</li>
+<li>多城联合起义会立即成功，参与城市共同组成一个叛军国家。</li>
+<li>军械援助会按一次连续笔刷累计去重人数。</li>
+<li>互不侵犯条约到期后，同一对国家有10年续签间隔；贸易不受影响。</li>
+</ul>
 <p>游戏界面支持简体中文与 English，并跟随 WorldBox 的语言设置。详细机制见 <a href="PLAYER_GUIDE.md">PLAYER_GUIDE.md</a>，安装步骤见 <a href="INSTALL.md">INSTALL.md</a>。</p>
 <p>运行本模组需要 NeoModLoader，并需在 WorldBox 中开启 Experimental Mode。首次使用 NML 时请先按其安装说明手动安装加载器。</p>
-<h2 id="start-section">兼容环境</h2>
+<h2 id="start-section-1">兼容环境</h2>
 <ul>
 <li>Windows</li>
 <li>WorldBox 0.51.2，Steam build 19962337</li>
 <li>NeoModLoader 1.2.0.1</li>
 </ul>
 <p>其他系统、游戏版本和模组组合尚未确认兼容。</p>
-<h2 id="start-section-1">主要内容</h2>
+<h2 id="start-section-2">主要内容</h2>
 <ul>
 <li>工坊、工业、现代三个发展阶段，升级取决于人口、城龄、库存和科技。</li>
 <li>工业、民生、军事三条研究路线，共11项科技。</li>
@@ -31,7 +38,7 @@
 <li>默认年度动员、可批量使用的军械援助，以及叛乱/征服后的城市多数科技继承。</li>
 <li>可选的飞升候选者成长玩法。</li>
 </ul>
-<h2 id="start-section-2">五分钟上手</h2>
+<h2 id="start-section-3">五分钟上手</h2>
 <ol>
 <li>安装并启用模组后，创建新世界或载入世界副本。</li>
 <li>打开 <strong>世界飞升 → 总览 → 国家面板</strong>，再点击一座城市。</li>
@@ -42,6 +49,13 @@
 <p>自然工业化不是固定倒计时。粮食、战争、人口、库存和研究都会改变节奏，几十年后才出现工业城市很正常。</p>
 <h2 id="start-english">English</h2>
 <p>World Ascension adds a slow, observable path of civilization development to WorldBox. Cities progress from the medieval stage into workshops, industry, and the modern era. Countries research technologies, build public services, choose policies, respond to crises, and divide real stock between war and development.</p>
+<h3 id="start-fixes">1.1.1 fixes</h3>
+<ul>
+<li>Failed automatic city construction no longer produces unsolicited pop-ups.</li>
+<li>A Multi-City Uprising succeeds immediately and places participating cities in one rebel kingdom.</li>
+<li>Armament Aid reports a deduplicated total for the whole continuous brush gesture.</li>
+<li>The same pair of kingdoms waits ten years before renewing an expired non-aggression pact; trade remains unaffected.</li>
+</ul>
 <p>The in-game interface supports Simplified Chinese and English and follows the WorldBox language setting. See <a href="PLAYER_GUIDE.md">PLAYER_GUIDE.md</a> for rules and <a href="INSTALL.md">INSTALL.md</a> for setup.</p>
 <p>The mod requires NeoModLoader and WorldBox Experimental Mode. Follow the NML installation guide to install the loader manually before first use.</p>
 <h3 id="start-verified-environment">Verified environment</h3>
@@ -270,7 +284,8 @@
 <li>普通枪械费用：手枪3金属/1木，步枪5金属/1木，精确步枪7金属/1木。年度动员默认开启，并与升档、手动补装及战时经济共用每城每年12件额度。</li>
 <li>重武器费用：榴弹发射器10金属/3木，野战炮18金属/6木；独立配额为每城每年3件，自动采购仍只在实际战争中运行。</li>
 <li>核打击需要核工程、实际战争、现代出资城市的60黄金与40金属，并有20年国家冷却。界面要求先预备再确认；爆炸会破坏地形并波及友军。</li>
-<li>贸易协定持续10年，进口方每年用3黄金交换6金属；互不侵犯协定持续10年。</li>
+<li>贸易协定持续10年，进口方每年用3黄金交换6金属；互不侵犯协定持续10年，正常到期后同一对国家需等待10年才能续签。</li>
+<li>“多城联合起义”会立即成功：最多六座参与城市共同组成一个叛军国家，并立即与原国家进入叛乱战争。</li>
 <li>禁运持续5年；援助转移5黄金与4金属，并可提高受援城市稳定。</li>
 <li>自主贸易要求买方候选城市至少4黄金、卖方候选城市至少10金属。世界外交纪事保留100条，同一类别最多25条。</li>
 </ul>
@@ -459,7 +474,8 @@
 <li>Regular weapons cost: pistol 3 metal/1 wood, rifle 5 metal/1 wood, marksman rifle 7 metal/1 wood. Yearly mobilization is enabled by default and shares the 12-per-city yearly limit with era advancement, manual issue, and War Economy.</li>
 <li>Heavy weapons cost: grenade launcher 10 metal/3 wood, field artillery 18 metal/6 wood. Their separate limit is 3 per city per year, and automatic purchase still requires an active war.</li>
 <li>A nuclear strike requires Atomic Engineering, an active war, 60 gold and 40 metal in one modern funding city, and a 20-year national cooldown. The panel requires arming and confirmation. The blast destroys terrain and can hit allies.</li>
-<li>A trade pact lasts 10 years and exchanges 3 importer gold for 6 exporter metal each year. A non-aggression pact lasts 10 years.</li>
+<li>A trade pact lasts 10 years and exchanges 3 importer gold for 6 exporter metal each year. A non-aggression pact lasts 10 years; after normal expiry, the same pair must wait 10 years before renewing it.</li>
+<li>Multi-City Uprising succeeds immediately: up to six participating cities form one rebel kingdom and enter a rebellion war against their former kingdom.</li>
 <li>An embargo lasts 5 years. Aid transfers 5 gold and 4 metal and may increase recipient stability.</li>
 <li>Autonomous trade requires a buyer candidate city with at least 4 gold and a seller candidate city with at least 10 metal. The world chronicle keeps 100 entries, with at most 25 from one category.</li>
 </ul>
