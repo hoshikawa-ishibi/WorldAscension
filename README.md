@@ -1,6 +1,4 @@
-# World Ascension 1.0
-
-[下载安装包](https://github.com/hoshikawa-ishibi/WorldAscension/releases/tag/v1.0.0) · [安装说明](INSTALL.md) · [完整玩家指南](PLAYER_GUIDE.md) · [使用说明](LICENSE.md)
+# World Ascension 1.1
 
 中文 | [English](#english)
 
@@ -26,6 +24,7 @@ World Ascension 为 WorldBox 增加一条缓慢、可观察的文明发展路线
 - 公共粮仓、市立医院、城市学府与同国内部粮运。
 - 国家政策、稳定、国内事件、战后重建和教育改革。
 - 贸易、互不侵犯、禁运、援助、现代军备与后期核工程。
+- 默认年度动员、可批量使用的军械援助，以及叛乱/征服后的城市多数科技继承。
 - 可选的飞升候选者成长玩法。
 
 ## 五分钟上手
@@ -62,6 +61,7 @@ Other operating systems, game versions, and mod combinations are not yet confirm
 - Public granaries, municipal hospitals, city academies, and domestic food logistics.
 - National policy, stability, domestic events, postwar reconstruction, and education reform.
 - Trade, non-aggression, embargoes, aid, modern armaments, and late-game atomic engineering.
+- Default yearly mobilization, brush-based armament aid, and majority city-knowledge inheritance after rebellion or conquest.
 - Optional Ascension Candidate progression.
 
 ### Five-minute start
