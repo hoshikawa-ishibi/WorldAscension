@@ -17,7 +17,7 @@ World Ascension 是 WorldBox 的社区代码模组，需要 NeoModLoader（NML�
 
 ### 语言
 
-模组跟随 WorldBox 的语言设置。中文语言使用简体中文界面，English 使用英文界面。切换语言后重新打开模组窗口；没有立即刷新时请重启游戏。
+模组跟随 WorldBox 的语言设置。中文语言使用简体中文界面，English 使用英文界面。切换语言后，已打开的国家面板和说明窗口会自动刷新，无需重开窗口或重启游戏。
 
 ### 更新与移除
 
@@ -43,7 +43,7 @@ Do not place the ZIP itself in `Mods`, and do not enable both a manual copy and 
 
 ### Language
 
-The mod follows the WorldBox language setting. Chinese uses the Simplified Chinese interface, and English uses the English interface. Reopen the mod window after switching languages; restart the game if it does not refresh immediately.
+The mod follows the WorldBox language setting. Chinese uses the Simplified Chinese interface, and English uses the English interface. Open National Panel and guide windows refresh automatically after a language switch; reopening the window or restarting the game is unnecessary.
 
 ### Update or remove
 
