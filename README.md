@@ -4,6 +4,13 @@
 
 World Ascension 为 WorldBox 增加一条缓慢、可观察的文明发展路线。城市会从中世纪逐步进入工坊、工业与现代阶段，国家会研究科技、建设公共设施、选择政策、处理危机，并在战争与发展之间分配真实库存。
 
+## 1.1.1 修复
+
+- 自动城市建设失败不再无故弹出提示。
+- 多城联合起义会立即成功，参与城市共同组成一个叛军国家。
+- 军械援助会按一次连续笔刷累计去重人数。
+- 互不侵犯条约到期后，同一对国家有10年续签间隔；贸易不受影响。
+
 游戏界面支持简体中文与 English，并跟随 WorldBox 的语言设置。详细机制见 [PLAYER_GUIDE.md](PLAYER_GUIDE.md)，安装步骤见 [INSTALL.md](INSTALL.md)。
 
 运行本模组需要 NeoModLoader，并需在 WorldBox 中开启 Experimental Mode。首次使用 NML 时请先按其安装说明手动安装加载器。
@@ -40,6 +47,13 @@ World Ascension 为 WorldBox 增加一条缓慢、可观察的文明发展路线
 ## English
 
 World Ascension adds a slow, observable path of civilization development to WorldBox. Cities progress from the medieval stage into workshops, industry, and the modern era. Countries research technologies, build public services, choose policies, respond to crises, and divide real stock between war and development.
+
+### 1.1.1 fixes
+
+- Failed automatic city construction no longer produces unsolicited pop-ups.
+- A Multi-City Uprising succeeds immediately and places participating cities in one rebel kingdom.
+- Armament Aid reports a deduplicated total for the whole continuous brush gesture.
+- The same pair of kingdoms waits ten years before renewing an expired non-aggression pact; trade remains unaffected.
 
 The in-game interface supports Simplified Chinese and English and follows the WorldBox language setting. See [PLAYER_GUIDE.md](PLAYER_GUIDE.md) for rules and [INSTALL.md](INSTALL.md) for setup.
 
