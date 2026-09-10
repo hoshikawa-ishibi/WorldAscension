@@ -1,8 +1,8 @@
-# World Ascension 1.0 玩家指南 / Player Guide
+# World Ascension 1.1 玩家指南 / Player Guide
 
-World Ascension 会跟随 WorldBox 的游戏语言显示简体中文或 English。切换游戏语言后重新打开模组窗口；若界面没有立即刷新，请重启游戏。
+World Ascension 会跟随 WorldBox 的游戏语言显示简体中文或 English。切换游戏语言后，已打开的国家面板和说明窗口会自动刷新，无需重开窗口或重启游戏。
 
-World Ascension follows the WorldBox language setting and displays Simplified Chinese or English. Reopen the mod window after changing language; restart the game if the interface does not refresh immediately.
+World Ascension follows the WorldBox language setting and displays Simplified Chinese or English. Open National Panel and guide windows refresh automatically after a language switch; reopening the window or restarting the game is unnecessary.
 
 ## 中文指南
 
@@ -30,9 +30,9 @@ World Ascension follows the WorldBox language setting and displays Simplified Ch
 
 | 目标时代 | 默认人口 | 城龄 | 库存与科技 |
 |---|---:|---:|---|
-| 工坊 | 20 | 3年 | 3金属 |
-| 工业 | 45 | 10年 | 12金属、5黄金、精密工具 |
-| 现代 | 80 | 20年 | 25金属、12黄金、电气化 |
+| 工坊 | 12 | 2年 | 2金属 |
+| 工业 | 26 | 5年 | 8金属、3黄金、精密工具 |
+| 现代 | 45 | 10年 | 16金属、6黄金、电气化 |
 
 城市实际升档时获得一次启动物资：工坊8金属/4木/3金，工业16金属/8木/6金，现代24金属/12木/9金。重复干预不会重复发放。
 
@@ -45,13 +45,13 @@ World Ascension follows the WorldBox language setting and displays Simplified Ch
 
 ### 国家科研
 
-科技属于国家，由符合条件的城市逐年出资。常规预算每城支付2黄金和1金属获得2点；密集预算支付4黄金和2金属获得4点并使本城稳定−1。出资后至少保留3黄金和2金属。平时每国每年最多3座城市出资。
+科技由国家使用、由符合条件的城市逐年出资。科技完成时会给当前城市留下知识；叛乱或征服后，新国家只有在过半现有城市掌握该科技且前置完整时才会采纳。常规预算每城支付2黄金和1金属获得2点；密集预算支付4黄金和2金属获得4点并使本城稳定−1。出资后至少保留3黄金和2金属。平时每国每年最多3座城市出资。
 
 | 分支 | 科技路线 |
 |---|---|
-| 工业 | 精密工具 → 电气化 → 物流网络 → 自动化生产 |
-| 民生 | 农学改良 → 基础医学 → 公共卫生 → 无线电行政 |
-| 军事 | 榴弹技术 → 野战火炮 → 核工程 |
+| 工业 | 精密工具 8 → 电气化 16 → 物流网络 20 → 自动化生产 28 |
+| 民生 | 农学改良 8 → 基础医学 16 → 公共卫生 20 → 无线电行政 24 |
+| 军事 | 榴弹技术 12 → 野战火炮 24 → 核工程 60 |
 
 学府可为合格出资提供1个免费研究点；学术分工可支付1黄金购买1点；教育改革完成后还能再购买1点。系统只收取实际用到的费用。
 
@@ -75,11 +75,12 @@ World Ascension follows the WorldBox language setting and displays Simplified Ch
 
 - 国家重建：和平时启动，持续5年，逐年帮助低稳定城市；重新开战会结束计划。
 - 教育改革：和平时启动，6年内需要4个获资年度；成功后增强学术城市科研。
-- 普通枪械费用：手枪3金属/1木，步枪5金属/1木，精确步枪7金属/1木。
-- 重武器费用：榴弹发射器10金属/3木，野战炮18金属/6木。
+- 普通枪械费用：手枪3金属/1木，步枪5金属/1木，精确步枪7金属/1木。年度动员默认开启，并与升档、手动补装及战时经济共用每城每年12件额度。
+- 重武器费用：榴弹发射器10金属/3木，野战炮18金属/6木；独立配额为每城每年3件，自动采购仍只在实际战争中运行。
 - 核打击需要核工程、实际战争、现代出资城市的60黄金与40金属，并有20年国家冷却。界面要求先预备再确认；爆炸会破坏地形并波及友军。
 - 贸易协定持续10年，进口方每年用3黄金交换6金属；互不侵犯协定持续10年。
 - 禁运持续5年；援助转移5黄金与4金属，并可提高受援城市稳定。
+- 自主贸易要求买方候选城市至少4黄金、卖方候选城市至少10金属。世界外交纪事保留100条，同一类别最多25条。
 
 ### 常见问题
 
@@ -118,9 +119,9 @@ It is normal for industrial cities to take decades to appear. Natural progressio
 
 | Target era | Default population | City age | Stock and technology |
 |---|---:|---:|---|
-| Workshop | 20 | 3 years | 3 metal |
-| Industrial | 45 | 10 years | 12 metal, 5 gold, Precision Tools |
-| Modern | 80 | 20 years | 25 metal, 12 gold, Electrification |
+| Workshop | 12 | 2 years | 2 metal |
+| Industrial | 26 | 5 years | 8 metal, 3 gold, Precision Tools |
+| Modern | 45 | 10 years | 16 metal, 6 gold, Electrification |
 
 A real era advancement grants starter stock once: Workshop 8 metal/4 wood/3 gold, Industrial 16 metal/8 wood/6 gold, and Modern 24 metal/12 wood/9 gold. Repeated intervention does not grant it again.
 
@@ -133,13 +134,13 @@ Base yearly production:
 
 ### National research
 
-Technology belongs to the country, while eligible cities fund it yearly. Standard funding costs 2 gold and 1 metal for 2 points per city. Intensive funding costs 4 gold and 2 metal for 4 points and −1 local stability. A city must retain 3 gold and 2 metal after payment. Normally, up to three cities may contribute each year.
+Countries use technologies while eligible cities fund them yearly. Completion leaves knowledge in the country's current cities. After rebellion or conquest, a new country adopts a technology only when a majority of its current cities know it and all prerequisites are complete. Standard funding costs 2 gold and 1 metal for 2 points per city. Intensive funding costs 4 gold and 2 metal for 4 points and −1 local stability. A city must retain 3 gold and 2 metal after payment. Normally, up to three cities may contribute each year.
 
 | Branch | Technology path |
 |---|---|
-| Industry | Precision Tools → Electrification → Logistics Network → Automation |
-| Civil | Agronomy → Basic Medicine → Public Health → Radio Administration |
-| Military | Grenade Technology → Field Artillery → Atomic Engineering |
+| Industry | Precision Tools 8 → Electrification 16 → Logistics Network 20 → Automation 28 |
+| Civil | Agronomy 8 → Basic Medicine 16 → Public Health 20 → Radio Administration 24 |
+| Military | Grenade Technology 12 → Field Artillery 24 → Atomic Engineering 60 |
 
 An academy adds 1 free point to eligible funding. An academic city role may buy 1 point for 1 gold, and completed education reform allows one more purchase. Only points actually used are charged.
 
@@ -163,11 +164,12 @@ Food shortages, missing prerequisites, or low stability pause construction witho
 
 - National reconstruction starts in peace, lasts 5 years, and aids low-stability cities. A new war ends it.
 - Education reform starts in peace and needs funding in 4 of 6 years. Completion improves research in academic cities.
-- Regular weapons cost: pistol 3 metal/1 wood, rifle 5 metal/1 wood, marksman rifle 7 metal/1 wood.
-- Heavy weapons cost: grenade launcher 10 metal/3 wood, field artillery 18 metal/6 wood.
+- Regular weapons cost: pistol 3 metal/1 wood, rifle 5 metal/1 wood, marksman rifle 7 metal/1 wood. Yearly mobilization is enabled by default and shares the 12-per-city yearly limit with era advancement, manual issue, and War Economy.
+- Heavy weapons cost: grenade launcher 10 metal/3 wood, field artillery 18 metal/6 wood. Their separate limit is 3 per city per year, and automatic purchase still requires an active war.
 - A nuclear strike requires Atomic Engineering, an active war, 60 gold and 40 metal in one modern funding city, and a 20-year national cooldown. The panel requires arming and confirmation. The blast destroys terrain and can hit allies.
 - A trade pact lasts 10 years and exchanges 3 importer gold for 6 exporter metal each year. A non-aggression pact lasts 10 years.
 - An embargo lasts 5 years. Aid transfers 5 gold and 4 metal and may increase recipient stability.
+- Autonomous trade requires a buyer candidate city with at least 4 gold and a seller candidate city with at least 10 metal. The world chronicle keeps 100 entries, with at most 25 from one category.
 
 ### Troubleshooting
 
