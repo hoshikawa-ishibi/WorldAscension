@@ -2,7 +2,7 @@
 
 ## 中文
 
-World Ascension 是 WorldBox 的社区代码模组，需要 NeoModLoader（NML）。目前确认兼容 Windows、WorldBox 0.51.2（Steam build 19962337）和 NML 1.2.0.1。
+World Ascension 1.2.0 是 WorldBox 的社区代码模组，需要 NeoModLoader（NML）。兼容环境为 Windows、WorldBox 0.51.2（Steam build 19962337）和 NML 1.2.0.1。
 
 ### 安装
 
@@ -12,6 +12,8 @@ World Ascension 是 WorldBox 的社区代码模组，需要 NeoModLoader（NML�
 4. 检查最终路径为 `worldbox/Mods/WorldAscension/mod.json`；`WorldAscension.dll` 应与 `mod.json` 同级。
 5. 启动游戏，在 NML 模组列表中确认 **World Ascension** 已启用。
 6. 建议先用新世界或已有世界的副本游玩。入口是 **世界飞升 → 总览 → 国家面板**。
+
+飞升者名单和候选者画笔位于底部“成长”页；强制划归与联合建国位于“神力 → 城市归属”。
 
 不要把整个ZIP直接放进 `Mods`，也不要同时启用手动安装和 Steam Workshop 订阅的两个副本。
 
@@ -28,7 +30,7 @@ World Ascension 是 WorldBox 的社区代码模组，需要 NeoModLoader（NML�
 
 ## English
 
-World Ascension is a community code mod for WorldBox and requires NeoModLoader (NML). The verified environment is Windows, WorldBox 0.51.2 (Steam build 19962337), and NML 1.2.0.1.
+World Ascension 1.2.0 is a community code mod for WorldBox and requires NeoModLoader (NML). The supported environment is Windows, WorldBox 0.51.2 (Steam build 19962337), and NML 1.2.0.1.
 
 ### Install
 
@@ -38,6 +40,8 @@ World Ascension is a community code mod for WorldBox and requires NeoModLoader (
 4. Confirm the final path is `worldbox/Mods/WorldAscension/mod.json`; `WorldAscension.dll` must be next to `mod.json`.
 5. Start the game and confirm **World Ascension** is enabled in the NML mod list.
 6. Start with a new world or a copy of an existing one. Open **World Ascension → Overview → National Panel**.
+
+The ascendant roster and candidate brush are under Growth in the bottom tab. Forced transfers and joint founding are under God tools → City ownership.
 
 Do not place the ZIP itself in `Mods`, and do not enable both a manual copy and a Steam Workshop subscription at the same time.
 
