@@ -8,15 +8,16 @@
 @media print{aside{display:none}main{margin:0;max-width:none;padding:0}body{background:white;font-size:11pt}h1{font-size:22pt}h2{break-after:avoid}tr{break-inside:avoid}a{color:inherit}section{padding-bottom:18px}footer{display:none}}
 </style></head><body>
 <aside><div class="eyebrow">WORLDBOX COMMUNITY MOD</div><div class="brand">WORLD<br>ASCENSION</div><p>从工坊到现代。<br>From workshops to the modern era.</p><nav><a href="#start">01 · 介绍 / Intro</a><a href="#install">02 · 安装 / Install</a><a href="#rules">03 · 指南 / Guide</a><a href="#future">04 · 路线图 / Roadmap</a></nav><p class="hint">离线可读 / Works offline.<br>用 Ctrl+F 搜索关键词 / Search with Ctrl+F.</p></aside>
-<main><section id="start"><p class="section-label">介绍 / Introduction</p><h1 id="start-world-ascension-1.1">World Ascension 1.1</h1>
+<main><section id="start"><p class="section-label">介绍 / Introduction</p><h1 id="start-world-ascension-1.2.0">World Ascension 1.2.0</h1>
 <p>中文 | <a href="#start-english">English</a></p>
 <p>World Ascension 为 WorldBox 增加一条缓慢、可观察的文明发展路线。城市会从中世纪逐步进入工坊、工业与现代阶段，国家会研究科技、建设公共设施、选择政策、处理危机，并在战争与发展之间分配真实库存。</p>
-<h2 id="start-section">1.1.1 修复</h2>
+<h2 id="start-section">1.2.0 更新</h2>
 <ul>
-<li>自动城市建设失败不再无故弹出提示。</li>
-<li>多城联合起义会立即成功，参与城市共同组成一个叛军国家。</li>
-<li>军械援助会按一次连续笔刷累计去重人数。</li>
-<li>互不侵犯条约到期后，同一对国家有10年续签间隔；贸易不受影响。</li>
+<li>工坊、工业、现代的最低城龄改为8、20、40年；提高年度金属产出，缺金属时优先寻找可采金属矿。</li>
+<li>自动军购和原版制造为工坊、工业、现代城市分别保留10、18、4金属，给发展和科研留出库存。</li>
+<li>飞升者名单支持逐人查看、候选者画笔、按比例随机授予和一键授予所有国王。</li>
+<li>城市归属窗口支持多选城市，强制划归现有国家或共同建国。</li>
+<li>榴弹发射器和轮式野战炮有独立的地图外观；玩家核打击取消年份冷却，每次发射都会降低各国对发射国的好感。</li>
 </ul>
 <p>游戏界面支持简体中文与 English，并跟随 WorldBox 的语言设置。详细机制见 <a href="PLAYER_GUIDE.md">PLAYER_GUIDE.md</a>，安装步骤见 <a href="INSTALL.md">INSTALL.md</a>。</p>
 <p>运行本模组需要 NeoModLoader，并需在 WorldBox 中开启 Experimental Mode。首次使用 NML 时请先按其安装说明手动安装加载器。</p>
@@ -36,7 +37,8 @@
 <li>国家政策、稳定、国内事件、战后重建和教育改革。</li>
 <li>贸易、互不侵犯、禁运、援助、现代军备与后期核工程。</li>
 <li>默认年度动员、可批量使用的军械援助，以及叛乱/征服后的城市多数科技继承。</li>
-<li>可选的飞升候选者成长玩法。</li>
+<li>可选的飞升候选者成长玩法，附名单和批量授予工具。</li>
+<li>多城强制划归与联合建国，保留原有多城联合起义。</li>
 </ul>
 <h2 id="start-section-3">五分钟上手</h2>
 <ol>
@@ -46,15 +48,17 @@
 <li>关闭面板并恢复时间。大多数系统按游戏年结算。</li>
 <li>需要干预时，再调整研究、政策、分工、建设、军备或外交。</li>
 </ol>
+<p>飞升工具位于底部“成长”页；多选归属工具位于“神力 → 城市归属”。国家面板在功能名称附近说明用途，费用和完整规则可点“详情”查看。</p>
 <p>自然工业化不是固定倒计时。粮食、战争、人口、库存和研究都会改变节奏，几十年后才出现工业城市很正常。</p>
 <h2 id="start-english">English</h2>
 <p>World Ascension adds a slow, observable path of civilization development to WorldBox. Cities progress from the medieval stage into workshops, industry, and the modern era. Countries research technologies, build public services, choose policies, respond to crises, and divide real stock between war and development.</p>
-<h3 id="start-fixes">1.1.1 fixes</h3>
+<h3 id="start-changes">1.2.0 changes</h3>
 <ul>
-<li>Failed automatic city construction no longer produces unsolicited pop-ups.</li>
-<li>A Multi-City Uprising succeeds immediately and places participating cities in one rebel kingdom.</li>
-<li>Armament Aid reports a deduplicated total for the whole continuous brush gesture.</li>
-<li>The same pair of kingdoms waits ten years before renewing an expired non-aggression pact; trade remains unaffected.</li>
+<li>Workshop, Industrial, and Modern eras now require city ages of 8, 20, and 40 years. Yearly metal output is higher, and miners prioritize reachable metal deposits when city stock is low.</li>
+<li>Automatic procurement and vanilla crafting reserve 10, 18, and 4 metal in Workshop, Industrial, and Modern cities for development and research.</li>
+<li>The ascendant roster includes individual inspection, a candidate brush, random percentage grants, and a grant-all-kings action.</li>
+<li>Select several cities to transfer them to an existing country or found one country together.</li>
+<li>Grenade launchers and wheeled field artillery have their own world sprites. Player nuclear strikes have no year cooldown; each launch lowers other countries' opinion of the attacker.</li>
 </ul>
 <p>The in-game interface supports Simplified Chinese and English and follows the WorldBox language setting. See <a href="PLAYER_GUIDE.md">PLAYER_GUIDE.md</a> for rules and <a href="INSTALL.md">INSTALL.md</a> for setup.</p>
 <p>The mod requires NeoModLoader and WorldBox Experimental Mode. Follow the NML installation guide to install the loader manually before first use.</p>
@@ -74,7 +78,8 @@
 <li>National policy, stability, domestic events, postwar reconstruction, and education reform.</li>
 <li>Trade, non-aggression, embargoes, aid, modern armaments, and late-game atomic engineering.</li>
 <li>Default yearly mobilization, brush-based armament aid, and majority city-knowledge inheritance after rebellion or conquest.</li>
-<li>Optional Ascension Candidate progression.</li>
+<li>Optional Ascension Candidate progression with a roster and group grant tools.</li>
+<li>Forced city transfers and joint founding, alongside the existing Multi-City Uprising.</li>
 </ul>
 <h3 id="start-five-minute-start">Five-minute start</h3>
 <ol>
@@ -84,11 +89,12 @@
 <li>Close the panel and resume time. Most systems settle once per game year.</li>
 <li>Adjust research, policy, city roles, construction, military supply, or diplomacy when intervention is useful.</li>
 </ol>
+<p>Find ascendant tools under Growth in the bottom tab, and city selection under God tools → City ownership. National Panel pages explain each function beside its name; open Details for costs and full rules.</p>
 <p>Natural industrialization is not a fixed countdown. Food, war, population, stock, and research all affect its pace, so taking decades to reach industry is normal.</p>
 </section>
 <section id="install"><p class="section-label">安装 / Installation</p><h1 id="install-installation-and-updates">安装与更新 / Installation and Updates</h1>
 <h2 id="install-section">中文</h2>
-<p>World Ascension 是 WorldBox 的社区代码模组，需要 NeoModLoader（NML）。目前确认兼容 Windows、WorldBox 0.51.2（Steam build 19962337）和 NML 1.2.0.1。</p>
+<p>World Ascension 1.2.0 是 WorldBox 的社区代码模组，需要 NeoModLoader（NML）。兼容环境为 Windows、WorldBox 0.51.2（Steam build 19962337）和 NML 1.2.0.1。</p>
 <h3 id="install-section-1">安装</h3>
 <ol>
 <li>按 <a href="https://worldboxopenmods.gitbook.io/mod-tutorial-en/player-manual/install">NML 安装说明</a>安装与游戏版本匹配的 NeoModLoader，并开启 WorldBox 的 Experimental Mode。</li>
@@ -98,6 +104,7 @@
 <li>启动游戏，在 NML 模组列表中确认 <strong>World Ascension</strong> 已启用。</li>
 <li>建议先用新世界或已有世界的副本游玩。入口是 <strong>世界飞升 → 总览 → 国家面板</strong>。</li>
 </ol>
+<p>飞升者名单和候选者画笔位于底部“成长”页；强制划归与联合建国位于“神力 → 城市归属”。</p>
 <p>不要把整个ZIP直接放进 <code>Mods</code>，也不要同时启用手动安装和 Steam Workshop 订阅的两个副本。</p>
 <h3 id="install-section-2">语言</h3>
 <p>模组跟随 WorldBox 的语言设置。中文语言使用简体中文界面，English 使用英文界面。切换语言后，已打开的国家面板和说明窗口会自动刷新，无需重开窗口或重启游戏。</p>
@@ -109,7 +116,7 @@
 <li>日志位于 <code>worldbox/Logs/WorldAscension/worldascension.log</code>。</li>
 </ul>
 <h2 id="install-english">English</h2>
-<p>World Ascension is a community code mod for WorldBox and requires NeoModLoader (NML). The verified environment is Windows, WorldBox 0.51.2 (Steam build 19962337), and NML 1.2.0.1.</p>
+<p>World Ascension 1.2.0 is a community code mod for WorldBox and requires NeoModLoader (NML). The supported environment is Windows, WorldBox 0.51.2 (Steam build 19962337), and NML 1.2.0.1.</p>
 <h3 id="install-install">Install</h3>
 <ol>
 <li>Follow the <a href="https://worldboxopenmods.gitbook.io/mod-tutorial-en/player-manual/install">NML installation guide</a> to install a NeoModLoader version compatible with your game, then enable Experimental Mode in WorldBox.</li>
@@ -119,6 +126,7 @@
 <li>Start the game and confirm <strong>World Ascension</strong> is enabled in the NML mod list.</li>
 <li>Start with a new world or a copy of an existing one. Open <strong>World Ascension → Overview → National Panel</strong>.</li>
 </ol>
+<p>The ascendant roster and candidate brush are under Growth in the bottom tab. Forced transfers and joint founding are under God tools → City ownership.</p>
 <p>Do not place the ZIP itself in <code>Mods</code>, and do not enable both a manual copy and a Steam Workshop subscription at the same time.</p>
 <h3 id="install-language">Language</h3>
 <p>The mod follows the WorldBox language setting. Chinese uses the Simplified Chinese interface, and English uses the English interface. Open National Panel and guide windows refresh automatically after a language switch; reopening the window or restarting the game is unnecessary.</p>
@@ -131,7 +139,7 @@
 </ul>
 <p>When reporting a problem, include the WorldBox, NML, and World Ascension versions, other enabled mods, reproduction steps, and the relevant log lines.</p>
 </section>
-<section id="rules"><p class="section-label">玩家指南 / Player Guide</p><h1 id="rules-world-ascension-1.1-player-guide">World Ascension 1.1 玩家指南 / Player Guide</h1>
+<section id="rules"><p class="section-label">玩家指南 / Player Guide</p><h1 id="rules-world-ascension-1.2.0-player-guide">World Ascension 1.2.0 玩家指南 / Player Guide</h1>
 <p>World Ascension 会跟随 WorldBox 的游戏语言显示简体中文或 English。切换游戏语言后，已打开的国家面板和说明窗口会自动刷新，无需重开窗口或重启游戏。</p>
 <p>World Ascension follows the WorldBox language setting and displays Simplified Chinese or English. Open National Panel and guide windows refresh automatically after a language switch; reopening the window or restarting the game is unnecessary.</p>
 <h2 id="rules-section">中文指南</h2>
@@ -178,6 +186,8 @@
 </tr>
 </tbody>
 </table>
+<p>页面会在名称附近简述功能用途，费用和完整规则放在“详情”中。底部“成长 → 飞升者名单”可查看候选者和各阶段飞升者，点击姓名打开人物；同页的“授予候选者”画笔可直接授予文明人物资格。名单窗口还能一键授予所有国王，或按0–100%的比例随机授予。比例以本次尚未获得资格的文明人物为分母，人数向下取整，一次抽选不重复；已有飞升者的等级和进度保持不变，随世界保存。</p>
+<p>“神力 → 城市归属”支持跨页勾选多个城市，选择目标国后强制划归，或让所选城市共同建立一个新国家。首都也可选择；建国至少需要一位成年文明居民。这两种操作直接执行，不自动发动战争；原有“多城联合起义”仍保留。</p>
 <h3 id="rules-section-3">时代与生产</h3>
 <table>
 <thead>
@@ -192,19 +202,19 @@
 <tr>
 <td>工坊</td>
 <td style="text-align: right;">12</td>
-<td style="text-align: right;">2年</td>
+<td style="text-align: right;">8年</td>
 <td>2金属</td>
 </tr>
 <tr>
 <td>工业</td>
 <td style="text-align: right;">26</td>
-<td style="text-align: right;">5年</td>
+<td style="text-align: right;">20年</td>
 <td>8金属、3黄金、精密工具</td>
 </tr>
 <tr>
 <td>现代</td>
 <td style="text-align: right;">45</td>
-<td style="text-align: right;">10年</td>
+<td style="text-align: right;">40年</td>
 <td>16金属、6黄金、电气化</td>
 </tr>
 </tbody>
@@ -212,11 +222,12 @@
 <p>城市实际升档时获得一次启动物资：工坊8金属/4木/3金，工业16金属/8木/6金，现代24金属/12木/9金。重复干预不会重复发放。</p>
 <p>年度基础生产：</p>
 <ul>
-<li>工坊：2木换最多2金属，支付后至少保留3木。</li>
-<li>工业工厂：2金属、1黄金。</li>
-<li>现代工厂：4金属、2黄金。</li>
-<li>精密工具、电气化与自动化会继续提高工厂产出；稳定不高于25时工厂停产，自治会降低产出。</li>
+<li>工坊：2木换最多3金属，支付后至少保留3木。</li>
+<li>工业工厂：6金属、1黄金。</li>
+<li>现代工厂：10金属、2黄金。</li>
+<li>精密工具为工坊和工厂增加2金属；电气化为工厂再加2金属、1黄金；自动化在有木材时耗1木，再加4金属、1黄金。没有实际入库时不收燃料费。稳定不高于25时停产，自治会降低产出。</li>
 </ul>
+<p>工坊以上城市缺金属时，矿工会优先寻找本城同岛可采的金属矿。自动军购和原版制造会为工坊、工业、现代城市分别保留10、18、4金属；手动补装可使用这部分余量。</p>
 <h3 id="rules-section-4">国家科研</h3>
 <p>科技由国家使用、由符合条件的城市逐年出资。科技完成时会给当前城市留下知识；叛乱或征服后，新国家只有在过半现有城市掌握该科技且前置完整时才会采纳。常规预算每城支付2黄金和1金属获得2点；密集预算支付4黄金和2金属获得4点并使本城稳定−1。出资后至少保留3黄金和2金属。平时每国每年最多3座城市出资。</p>
 <table>
@@ -282,8 +293,8 @@
 <li>国家重建：和平时启动，持续5年，逐年帮助低稳定城市；重新开战会结束计划。</li>
 <li>教育改革：和平时启动，6年内需要4个获资年度；成功后增强学术城市科研。</li>
 <li>普通枪械费用：手枪3金属/1木，步枪5金属/1木，精确步枪7金属/1木。年度动员默认开启，并与升档、手动补装及战时经济共用每城每年12件额度。</li>
-<li>重武器费用：榴弹发射器10金属/3木，野战炮18金属/6木；独立配额为每城每年3件，自动采购仍只在实际战争中运行。</li>
-<li>核打击需要核工程、实际战争、现代出资城市的60黄金与40金属，并有20年国家冷却。界面要求先预备再确认；爆炸会破坏地形并波及友军。</li>
+<li>重武器费用：榴弹发射器10金属/3木，野战炮18金属/6木；独立配额为每城每年3件，自动采购仍只在实际战争中运行。两者在士兵手中有独立的榴弹器和轮式火炮外观，战斗中会发射实际弹丸，装备和外观可随世界保存。</li>
+<li>核打击需要核工程、实际战争，以及同一座现代出资城市的60黄金与40金属。玩家发射没有年份冷却，界面仍要求先预备再确认。每发使其他各国对发射国的原版好感减少40，累计最多减少160，此项惩罚每年恢复2；爆炸会破坏地形并波及友军。</li>
 <li>贸易协定持续10年，进口方每年用3黄金交换6金属；互不侵犯协定持续10年，正常到期后同一对国家需等待10年才能续签。</li>
 <li>“多城联合起义”会立即成功：最多六座参与城市共同组成一个叛军国家，并立即与原国家进入叛乱战争。</li>
 <li>禁运持续5年；援助转移5黄金与4金属，并可提高受援城市稳定。</li>
@@ -320,7 +331,15 @@
 </tr>
 <tr>
 <td>补装为0件</td>
-<td>年度配额、库存、时代、科技、可升级单位与旧装备入库空间</td>
+<td>年度配额、库存、时代、科技、可升级单位与旧装备入库空间；自动采购还需留出10/18/4金属</td>
+</tr>
+<tr>
+<td>随机授予为0人</td>
+<td>比例是否为0；尚未授予人数乘以比例后，向下取整是否不足1人</td>
+</tr>
+<tr>
+<td>核打击不可用</td>
+<td>核武开关、核工程、与目标国的实际战争，以及同一座现代城市的60金40金属</td>
 </tr>
 </tbody>
 </table>
@@ -368,6 +387,8 @@
 </tr>
 </tbody>
 </table>
+<p>Pages explain each function near its name. Open Details for costs and full rules. Growth → Ascendants in the bottom tab lists candidates and ascendants of every tier; select a name to inspect the person. The Grant candidate brush on the same page grants candidacy directly to civilization people. The roster window also grants all kings or a random share from 0–100%. The share uses people who are currently unchosen, rounds down, and samples without replacement on each click. Existing tiers and progress are preserved and saved with the world.</p>
+<p>God tools → City ownership lets you select cities across pages, transfer them to a chosen country, or found one country together. Capitals can be selected. Founding needs at least one adult civilization resident. Both actions take effect directly and do not start a war; Multi-City Uprising remains available.</p>
 <h3 id="rules-eras-and-production">Eras and production</h3>
 <table>
 <thead>
@@ -382,19 +403,19 @@
 <tr>
 <td>Workshop</td>
 <td style="text-align: right;">12</td>
-<td style="text-align: right;">2 years</td>
+<td style="text-align: right;">8 years</td>
 <td>2 metal</td>
 </tr>
 <tr>
 <td>Industrial</td>
 <td style="text-align: right;">26</td>
-<td style="text-align: right;">5 years</td>
+<td style="text-align: right;">20 years</td>
 <td>8 metal, 3 gold, Precision Tools</td>
 </tr>
 <tr>
 <td>Modern</td>
 <td style="text-align: right;">45</td>
-<td style="text-align: right;">10 years</td>
+<td style="text-align: right;">40 years</td>
 <td>16 metal, 6 gold, Electrification</td>
 </tr>
 </tbody>
@@ -402,11 +423,12 @@
 <p>A real era advancement grants starter stock once: Workshop 8 metal/4 wood/3 gold, Industrial 16 metal/8 wood/6 gold, and Modern 24 metal/12 wood/9 gold. Repeated intervention does not grant it again.</p>
 <p>Base yearly production:</p>
 <ul>
-<li>Workshop: converts 2 wood into up to 2 metal while reserving 3 wood.</li>
-<li>Industrial factory: 2 metal and 1 gold.</li>
-<li>Modern factory: 4 metal and 2 gold.</li>
-<li>Precision Tools, Electrification, and Automation improve factory output. Factories stop at stability 25 or lower, and autonomy reduces output.</li>
+<li>Workshop: converts 2 wood into up to 3 metal while reserving 3 wood.</li>
+<li>Industrial factory: 6 metal and 1 gold.</li>
+<li>Modern factory: 10 metal and 2 gold.</li>
+<li>Precision Tools adds 2 metal to workshops and factories. Electrification adds another 2 metal and 1 gold to factories; Automation uses 1 wood for another 4 metal and 1 gold. Fuel is charged only when output reaches storage. Production stops at stability 25 or lower, and autonomy reduces output.</li>
 </ul>
+<p>When metal is low in a Workshop or later city, miners prioritize reachable metal deposits on the same island within that city. Automatic procurement and vanilla crafting reserve 10, 18, and 4 metal in Workshop, Industrial, and Modern cities. Manual equipment orders may use those reserves.</p>
 <h3 id="rules-national-research">National research</h3>
 <p>Countries use technologies while eligible cities fund them yearly. Completion leaves knowledge in the country's current cities. After rebellion or conquest, a new country adopts a technology only when a majority of its current cities know it and all prerequisites are complete. Standard funding costs 2 gold and 1 metal for 2 points per city. Intensive funding costs 4 gold and 2 metal for 4 points and −1 local stability. A city must retain 3 gold and 2 metal after payment. Normally, up to three cities may contribute each year.</p>
 <table>
@@ -472,8 +494,8 @@
 <li>National reconstruction starts in peace, lasts 5 years, and aids low-stability cities. A new war ends it.</li>
 <li>Education reform starts in peace and needs funding in 4 of 6 years. Completion improves research in academic cities.</li>
 <li>Regular weapons cost: pistol 3 metal/1 wood, rifle 5 metal/1 wood, marksman rifle 7 metal/1 wood. Yearly mobilization is enabled by default and shares the 12-per-city yearly limit with era advancement, manual issue, and War Economy.</li>
-<li>Heavy weapons cost: grenade launcher 10 metal/3 wood, field artillery 18 metal/6 wood. Their separate limit is 3 per city per year, and automatic purchase still requires an active war.</li>
-<li>A nuclear strike requires Atomic Engineering, an active war, 60 gold and 40 metal in one modern funding city, and a 20-year national cooldown. The panel requires arming and confirmation. The blast destroys terrain and can hit allies.</li>
+<li>Heavy weapons cost: grenade launcher 10 metal/3 wood, field artillery 18 metal/6 wood. Their separate limit is 3 per city per year, and automatic purchase requires an active war. Soldiers carry distinct launcher and wheeled-artillery sprites and fire real projectiles. The equipped weapons and their appearance persist with the world.</li>
+<li>A nuclear strike requires Atomic Engineering, an active war, and 60 gold and 40 metal in one modern funding city. Player launches have no year cooldown; the panel still requires arming and confirmation. Each launch lowers other countries' vanilla opinion of the attacker by 40, up to a combined penalty of 160. This penalty recovers by 2 each year. The blast destroys terrain and can hit allies.</li>
 <li>A trade pact lasts 10 years and exchanges 3 importer gold for 6 exporter metal each year. A non-aggression pact lasts 10 years; after normal expiry, the same pair must wait 10 years before renewing it.</li>
 <li>Multi-City Uprising succeeds immediately: up to six participating cities form one rebel kingdom and enter a rebellion war against their former kingdom.</li>
 <li>An embargo lasts 5 years. Aid transfers 5 gold and 4 metal and may increase recipient stability.</li>
@@ -510,7 +532,15 @@
 </tr>
 <tr>
 <td>Equipment issue returns 0</td>
-<td>Yearly quota, stock, era, technology, eligible units, and room to store old equipment</td>
+<td>Yearly quota, stock, era, technology, eligible units, and room for old equipment; automatic orders also retain 10/18/4 metal</td>
+</tr>
+<tr>
+<td>Random grant returns 0</td>
+<td>Whether the share is 0, or the current unchosen population times the share rounds down to less than one person</td>
+</tr>
+<tr>
+<td>Nuclear strike is unavailable</td>
+<td>Nuclear setting, Atomic Engineering, an active war with the target, and 60 gold/40 metal in one modern city</td>
 </tr>
 </tbody>
 </table>
