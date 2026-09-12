@@ -1,4 +1,4 @@
-# World Ascension 1.1 玩家指南 / Player Guide
+# World Ascension 1.2.0 玩家指南 / Player Guide
 
 World Ascension 会跟随 WorldBox 的游戏语言显示简体中文或 English。切换游戏语言后，已打开的国家面板和说明窗口会自动刷新，无需重开窗口或重启游戏。
 
@@ -26,22 +26,28 @@ World Ascension follows the WorldBox language setting and displays Simplified Ch
 | 外交 | 管理外交路线、贸易、互不侵犯、禁运与援助 |
 | 事件 | 处理国内议题，查看国家记录与世界外交纪事 |
 
+页面会在名称附近简述功能用途，费用和完整规则放在“详情”中。底部“成长 → 飞升者名单”可查看候选者和各阶段飞升者，点击姓名打开人物；同页的“授予候选者”画笔可直接授予文明人物资格。名单窗口还能一键授予所有国王，或按0–100%的比例随机授予。比例以本次尚未获得资格的文明人物为分母，人数向下取整，一次抽选不重复；已有飞升者的等级和进度保持不变，随世界保存。
+
+“神力 → 城市归属”支持跨页勾选多个城市，选择目标国后强制划归，或让所选城市共同建立一个新国家。首都也可选择；建国至少需要一位成年文明居民。这两种操作直接执行，不自动发动战争；原有“多城联合起义”仍保留。
+
 ### 时代与生产
 
 | 目标时代 | 默认人口 | 城龄 | 库存与科技 |
 |---|---:|---:|---|
-| 工坊 | 12 | 2年 | 2金属 |
-| 工业 | 26 | 5年 | 8金属、3黄金、精密工具 |
-| 现代 | 45 | 10年 | 16金属、6黄金、电气化 |
+| 工坊 | 12 | 8年 | 2金属 |
+| 工业 | 26 | 20年 | 8金属、3黄金、精密工具 |
+| 现代 | 45 | 40年 | 16金属、6黄金、电气化 |
 
 城市实际升档时获得一次启动物资：工坊8金属/4木/3金，工业16金属/8木/6金，现代24金属/12木/9金。重复干预不会重复发放。
 
 年度基础生产：
 
-- 工坊：2木换最多2金属，支付后至少保留3木。
-- 工业工厂：2金属、1黄金。
-- 现代工厂：4金属、2黄金。
-- 精密工具、电气化与自动化会继续提高工厂产出；稳定不高于25时工厂停产，自治会降低产出。
+- 工坊：2木换最多3金属，支付后至少保留3木。
+- 工业工厂：6金属、1黄金。
+- 现代工厂：10金属、2黄金。
+- 精密工具为工坊和工厂增加2金属；电气化为工厂再加2金属、1黄金；自动化在有木材时耗1木，再加4金属、1黄金。没有实际入库时不收燃料费。稳定不高于25时停产，自治会降低产出。
+
+工坊以上城市缺金属时，矿工会优先寻找本城同岛可采的金属矿。自动军购和原版制造会为工坊、工业、现代城市分别保留10、18、4金属；手动补装可使用这部分余量。
 
 ### 国家科研
 
@@ -76,8 +82,8 @@ World Ascension follows the WorldBox language setting and displays Simplified Ch
 - 国家重建：和平时启动，持续5年，逐年帮助低稳定城市；重新开战会结束计划。
 - 教育改革：和平时启动，6年内需要4个获资年度；成功后增强学术城市科研。
 - 普通枪械费用：手枪3金属/1木，步枪5金属/1木，精确步枪7金属/1木。年度动员默认开启，并与升档、手动补装及战时经济共用每城每年12件额度。
-- 重武器费用：榴弹发射器10金属/3木，野战炮18金属/6木；独立配额为每城每年3件，自动采购仍只在实际战争中运行。
-- 核打击需要核工程、实际战争、现代出资城市的60黄金与40金属，并有20年国家冷却。界面要求先预备再确认；爆炸会破坏地形并波及友军。
+- 重武器费用：榴弹发射器10金属/3木，野战炮18金属/6木；独立配额为每城每年3件，自动采购仍只在实际战争中运行。两者在士兵手中有独立的榴弹器和轮式火炮外观，战斗中会发射实际弹丸，装备和外观可随世界保存。
+- 核打击需要核工程、实际战争，以及同一座现代出资城市的60黄金与40金属。玩家发射没有年份冷却，界面仍要求先预备再确认。每发使其他各国对发射国的原版好感减少40，累计最多减少160，此项惩罚每年恢复2；爆炸会破坏地形并波及友军。
 - 贸易协定持续10年，进口方每年用3黄金交换6金属；互不侵犯协定持续10年，正常到期后同一对国家需等待10年才能续签。
 - “多城联合起义”会立即成功：最多六座参与城市共同组成一个叛军国家，并立即与原国家进入叛乱战争。
 - 禁运持续5年；援助转移5黄金与4金属，并可提高受援城市稳定。
@@ -92,7 +98,9 @@ World Ascension follows the WorldBox language setting and displays Simplified Ch
 | 工坊或工厂没有生产 | 年度是否结算、木材、仓库空间、稳定与工厂生产开关 |
 | 工程没有推进 | 食物、稳定、科研开关、时代与科技前置 |
 | 自动分工没有变化 | 至少15黄金、10年冷却完成，并保持自动模式 |
-| 补装为0件 | 年度配额、库存、时代、科技、可升级单位与旧装备入库空间 |
+| 补装为0件 | 年度配额、库存、时代、科技、可升级单位与旧装备入库空间；自动采购还需留出10/18/4金属 |
+| 随机授予为0人 | 比例是否为0；尚未授予人数乘以比例后，向下取整是否不足1人 |
+| 核打击不可用 | 核武开关、核工程、与目标国的实际战争，以及同一座现代城市的60金40金属 |
 
 ## English Guide
 
@@ -116,22 +124,28 @@ It is normal for industrial cities to take decades to appear. Natural progressio
 | Diplomacy | Foreign-policy route, trade, non-aggression, embargoes, and aid |
 | Events | Resolve domestic issues and read national and world diplomatic records |
 
+Pages explain each function near its name. Open Details for costs and full rules. Growth → Ascendants in the bottom tab lists candidates and ascendants of every tier; select a name to inspect the person. The Grant candidate brush on the same page grants candidacy directly to civilization people. The roster window also grants all kings or a random share from 0–100%. The share uses people who are currently unchosen, rounds down, and samples without replacement on each click. Existing tiers and progress are preserved and saved with the world.
+
+God tools → City ownership lets you select cities across pages, transfer them to a chosen country, or found one country together. Capitals can be selected. Founding needs at least one adult civilization resident. Both actions take effect directly and do not start a war; Multi-City Uprising remains available.
+
 ### Eras and production
 
 | Target era | Default population | City age | Stock and technology |
 |---|---:|---:|---|
-| Workshop | 12 | 2 years | 2 metal |
-| Industrial | 26 | 5 years | 8 metal, 3 gold, Precision Tools |
-| Modern | 45 | 10 years | 16 metal, 6 gold, Electrification |
+| Workshop | 12 | 8 years | 2 metal |
+| Industrial | 26 | 20 years | 8 metal, 3 gold, Precision Tools |
+| Modern | 45 | 40 years | 16 metal, 6 gold, Electrification |
 
 A real era advancement grants starter stock once: Workshop 8 metal/4 wood/3 gold, Industrial 16 metal/8 wood/6 gold, and Modern 24 metal/12 wood/9 gold. Repeated intervention does not grant it again.
 
 Base yearly production:
 
-- Workshop: converts 2 wood into up to 2 metal while reserving 3 wood.
-- Industrial factory: 2 metal and 1 gold.
-- Modern factory: 4 metal and 2 gold.
-- Precision Tools, Electrification, and Automation improve factory output. Factories stop at stability 25 or lower, and autonomy reduces output.
+- Workshop: converts 2 wood into up to 3 metal while reserving 3 wood.
+- Industrial factory: 6 metal and 1 gold.
+- Modern factory: 10 metal and 2 gold.
+- Precision Tools adds 2 metal to workshops and factories. Electrification adds another 2 metal and 1 gold to factories; Automation uses 1 wood for another 4 metal and 1 gold. Fuel is charged only when output reaches storage. Production stops at stability 25 or lower, and autonomy reduces output.
+
+When metal is low in a Workshop or later city, miners prioritize reachable metal deposits on the same island within that city. Automatic procurement and vanilla crafting reserve 10, 18, and 4 metal in Workshop, Industrial, and Modern cities. Manual equipment orders may use those reserves.
 
 ### National research
 
@@ -166,8 +180,8 @@ Food shortages, missing prerequisites, or low stability pause construction witho
 - National reconstruction starts in peace, lasts 5 years, and aids low-stability cities. A new war ends it.
 - Education reform starts in peace and needs funding in 4 of 6 years. Completion improves research in academic cities.
 - Regular weapons cost: pistol 3 metal/1 wood, rifle 5 metal/1 wood, marksman rifle 7 metal/1 wood. Yearly mobilization is enabled by default and shares the 12-per-city yearly limit with era advancement, manual issue, and War Economy.
-- Heavy weapons cost: grenade launcher 10 metal/3 wood, field artillery 18 metal/6 wood. Their separate limit is 3 per city per year, and automatic purchase still requires an active war.
-- A nuclear strike requires Atomic Engineering, an active war, 60 gold and 40 metal in one modern funding city, and a 20-year national cooldown. The panel requires arming and confirmation. The blast destroys terrain and can hit allies.
+- Heavy weapons cost: grenade launcher 10 metal/3 wood, field artillery 18 metal/6 wood. Their separate limit is 3 per city per year, and automatic purchase requires an active war. Soldiers carry distinct launcher and wheeled-artillery sprites and fire real projectiles. The equipped weapons and their appearance persist with the world.
+- A nuclear strike requires Atomic Engineering, an active war, and 60 gold and 40 metal in one modern funding city. Player launches have no year cooldown; the panel still requires arming and confirmation. Each launch lowers other countries' vanilla opinion of the attacker by 40, up to a combined penalty of 160. This penalty recovers by 2 each year. The blast destroys terrain and can hit allies.
 - A trade pact lasts 10 years and exchanges 3 importer gold for 6 exporter metal each year. A non-aggression pact lasts 10 years; after normal expiry, the same pair must wait 10 years before renewing it.
 - Multi-City Uprising succeeds immediately: up to six participating cities form one rebel kingdom and enter a rebellion war against their former kingdom.
 - An embargo lasts 5 years. Aid transfers 5 gold and 4 metal and may increase recipient stability.
@@ -182,6 +196,8 @@ Food shortages, missing prerequisites, or low stability pause construction witho
 | Workshop or factory does not produce | Yearly settlement, wood, storage capacity, stability, and factory-production setting |
 | Construction does not progress | Food, stability, research setting, era, and technology prerequisites |
 | Automatic role does not change | At least 15 gold, completed 10-year cooldown, and automatic mode |
-| Equipment issue returns 0 | Yearly quota, stock, era, technology, eligible units, and room to store old equipment |
+| Equipment issue returns 0 | Yearly quota, stock, era, technology, eligible units, and room for old equipment; automatic orders also retain 10/18/4 metal |
+| Random grant returns 0 | Whether the share is 0, or the current unchosen population times the share rounds down to less than one person |
+| Nuclear strike is unavailable | Nuclear setting, Atomic Engineering, an active war with the target, and 60 gold/40 metal in one modern city |
 
 For bug reports, include the WorldBox version, NeoModLoader version, World Ascension version, other enabled mods, reproduction steps, and the relevant part of `Logs/WorldAscension/worldascension.log`.
