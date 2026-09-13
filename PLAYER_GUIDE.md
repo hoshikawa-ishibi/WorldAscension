@@ -1,14 +1,14 @@
-# World Ascension 1.2.0 玩家指南 / Player Guide
+# Civilization Odyssey 1.2.0 玩家指南 / Player Guide
 
-World Ascension 会跟随 WorldBox 的游戏语言显示简体中文或 English。切换游戏语言后，已打开的国家面板和说明窗口会自动刷新，无需重开窗口或重启游戏。
+Civilization Odyssey 会跟随 WorldBox 的游戏语言显示简体中文或 English。切换游戏语言后，已打开的国家面板和说明窗口会自动刷新，无需重开窗口或重启游戏。
 
-World Ascension follows the WorldBox language setting and displays Simplified Chinese or English. Open National Panel and guide windows refresh automatically after a language switch; reopening the window or restarting the game is unnecessary.
+Civilization Odyssey follows the WorldBox language setting and displays Simplified Chinese or English. Open National Panel and guide windows refresh automatically after a language switch; reopening the window or restarting the game is unnecessary.
 
 ## 中文指南
 
 ### 快速开始
 
-1. 进入世界后打开 **世界飞升 → 总览 → 国家面板**，再点击一座城市。
+1. 进入世界后打开 **Civilization Odyssey → 总览 → 国家面板**，再点击一座城市。
 2. 第一次游玩建议保留默认设置：自动时代发展、科研、施政、外交与城市发展均开启，科研使用“自动＋常规”。
 3. 关闭面板并恢复时间。生产、科研、治理、工程和外交主要按游戏年结算。
 4. 先观察城市为何停滞，再决定是否调整研究、政策、分工或建设。
@@ -106,7 +106,7 @@ World Ascension follows the WorldBox language setting and displays Simplified Ch
 
 ### Quick start
 
-1. Open **World Ascension → Overview → National Panel**, then select a city.
+1. Open **Civilization Odyssey → Overview → National Panel**, then select a city.
 2. For a first game, keep automatic era progression, research, governance, diplomacy, and city development enabled. Use Automatic + Standard research.
 3. Close the panel and resume time. Production, research, governance, construction, and diplomacy mostly settle once per game year.
 4. Check why a city is stalled before changing research, policy, city role, or construction.
@@ -200,4 +200,4 @@ Food shortages, missing prerequisites, or low stability pause construction witho
 | Random grant returns 0 | Whether the share is 0, or the current unchosen population times the share rounds down to less than one person |
 | Nuclear strike is unavailable | Nuclear setting, Atomic Engineering, an active war with the target, and 60 gold/40 metal in one modern city |
 
-For bug reports, include the WorldBox version, NeoModLoader version, World Ascension version, other enabled mods, reproduction steps, and the relevant part of `Logs/WorldAscension/worldascension.log`.
+For bug reports, include the WorldBox version, NeoModLoader version, Civilization Odyssey version, other enabled mods, reproduction steps, and the relevant part of `Logs/WorldAscension/worldascension.log`.
