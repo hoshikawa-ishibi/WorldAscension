@@ -1,8 +1,8 @@
-# World Ascension 1.2.0
+# Civilization Odyssey 1.2.0
 
 中文 | [English](#english)
 
-World Ascension 为 WorldBox 增加一条缓慢、可观察的文明发展路线。城市会从中世纪逐步进入工坊、工业与现代阶段，国家会研究科技、建设公共设施、选择政策、处理危机，并在战争与发展之间分配真实库存。
+Civilization Odyssey 为 WorldBox 增加一条缓慢、可观察的文明发展路线。城市会从中世纪逐步进入工坊、工业与现代阶段，国家会研究科技、建设公共设施、选择政策、处理危机，并在战争与发展之间分配真实库存。
 
 ## 1.2.0 更新
 
@@ -39,7 +39,7 @@ World Ascension 为 WorldBox 增加一条缓慢、可观察的文明发展路线
 ## 五分钟上手
 
 1. 安装并启用模组后，创建新世界或载入世界副本。
-2. 打开 **世界飞升 → 总览 → 国家面板**，再点击一座城市。
+2. 打开 **Civilization Odyssey → 总览 → 国家面板**，再点击一座城市。
 3. 第一次游玩保留默认自动设置，先查看城市“为什么没有发展”。
 4. 关闭面板并恢复时间。大多数系统按游戏年结算。
 5. 需要干预时，再调整研究、政策、分工、建设、军备或外交。
@@ -50,7 +50,7 @@ World Ascension 为 WorldBox 增加一条缓慢、可观察的文明发展路线
 
 ## English
 
-World Ascension adds a slow, observable path of civilization development to WorldBox. Cities progress from the medieval stage into workshops, industry, and the modern era. Countries research technologies, build public services, choose policies, respond to crises, and divide real stock between war and development.
+Civilization Odyssey adds a slow, observable path of civilization development to WorldBox. Cities progress from the medieval stage into workshops, industry, and the modern era. Countries research technologies, build public services, choose policies, respond to crises, and divide real stock between war and development.
 
 ### 1.2.0 changes
 
@@ -87,7 +87,7 @@ Other operating systems, game versions, and mod combinations are not yet confirm
 ### Five-minute start
 
 1. Install and enable the mod, then create a new world or load a copy of an existing one.
-2. Open **World Ascension → Overview → National Panel**, then select a city.
+2. Open **Civilization Odyssey → Overview → National Panel**, then select a city.
 3. Keep the default automatic settings for your first game and read why the city is stalled.
 4. Close the panel and resume time. Most systems settle once per game year.
 5. Adjust research, policy, city roles, construction, military supply, or diplomacy when intervention is useful.
